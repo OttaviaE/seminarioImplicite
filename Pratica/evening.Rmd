@@ -1,8 +1,11 @@
 ---
 title: "Implicit assessment in psychology:"
 subtitle: "How to work with the IAT"
-author: "Ottavia M. Epifania"
-date: 'Univerisità di Padova'
+author: | 
+  | Ottavia M. Epifania
+  | University of Padova
+date: 'June 9\textsuperscript{th}-10\textsuperscript{th}'
+institute: "ottavia.epifania@unipd.it"
 output: 
   beamer_presentation: 
     theme: CambridgeUS
