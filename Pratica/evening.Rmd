@@ -1,0 +1,282 @@
+---
+title: "Implicit assessment in psychology:"
+subtitle: "How to work with the IAT"
+author: "Ottavia M. Epifania"
+date: 'Univerisità di Padova'
+output: 
+  beamer_presentation: 
+    theme: "CambridgeUS"
+header-includes:
+    - \usepackage{graphicx} 
+    - \usepackage{setspace}
+    - \usepackage{tabularx}
+    - \usepackage{tikzsymbols}
+    - \usepackage{tikz}
+    - \usepackage{spot}
+    - \usepackage{tabularx}
+    - \usepackage[absolute,overlay]{textpos}
+    - \usepackage{booktabs}
+    - \newcommand\Factor{1.2}
+    - \setbeamerfont{subtitle}{size=\large, series=\bfseries}
+    - \definecolor{template}{RGB}{54, 114, 89}
+    - \setbeamercolor{frametitle}{fg=template, bg=white}
+    - \setbeamercolor{section in head/foot}{bg=template}
+    - \setbeamercolor{subsection in head/foot}{bg=template!20, fg=template}
+    - \setbeamercolor{author in head/foot}{bg=template}
+    - \setbeamercolor{date in head/foot}{fg=template}
+    - \setbeamercolor{title in head/foot}{fg=template}
+    - \setbeamertemplate{frametitle}[default][center]
+    - \setbeamercolor{sectiontitle}{fg=temmplate}
+    - \setbeamercolor{title}{fg=template}
+    - \setbeamercolor*{item}{fg=template}
+    - \setbeamertemplate{frametitle}[default][center]
+    - \setbeamercolor{section name}{fg=white}
+    - \AtBeginSection{\frame{\sectionpage}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      eval = TRUE, 
+                      message = FALSE, 
+                      prompt = TRUE)
+library(knitr)
+```
+
+## What we're using today
+
+-   download \href{https://cran.r-project.org/bin/windows/base/}{\includegraphics[width=0.04\linewidth]{R.png}} and follow the instructions
+-   download \href{https://www.rstudio.com/products/rstudio/download/}{\includegraphics[width=0.10\linewidth]{Rstudio.png}} and follow the instructions
+-   \href{http://fisppa.psy.unipd.it/DscoreApp/}{\includegraphics[width=0.10\linewidth]{AppLogo.png}} for an easy analsyis of the data (no need to install)
+-   \href{https://cran.r-project.org/web/packages/implicitMeasures/index.html}{\texttt{implicitMeasures}} \texttt{R} package
+
+## Disclaimer
+
+This tutorial assumes that Inquisit is used for collecting the IAT data.
+
+It is indeed based on data collected with Inquisit, available \href{https://ottaviae.github.io/seminarioImplicite/}{here}
+
+It is a Race IAT data set with observations from 142 participants.
+
+Explicit measures (i.e., political orientation and attitudes towards Black/White people) have been collected as well
+
+Nonetheless, both the shiny app and the package can be used with data collected with other administration software
+
+# DScoreApp
+
+## 
+
+If you want it simple, DScoreApp is made for you!
+
+```{=tex}
+\begin{exampleblock}{Adavantages}
+
+- It's super easy to use
+
+- Well documented and the maintainer is always available to help you
+
+- You can visually inspect the results as you compute the
+
+- There's a toy data set with which you can familiarize with the app
+
+\end{exampleblock}
+```
+```{=tex}
+\begin{alertblock}{Disadvantages}
+
+- You have to use excel to prepare the data
+
+- You can compute only one \emph{D} score at the time
+
+- You you have to manually merge in excel the data set with explicit measures to run further analysis
+
+\end{alertblock}
+```
+## Let's start
+
+Let's take a look at \href{https://fisppa.psy.unipd.it/DscoreApp/}{DScoreApp}
+
+\pause
+
+Data set have to be arranged in 4 columns, named:
+
+-   \textbf{participant}: participant's IDs
+
+-   \textbf{block}: Mapping A and Mapping B block labels
+
+-   \textbf{latency}: response times
+
+-   \textbf{correct}: accuracy responses
+
+## The data set
+
+From Inquisit, we usually obtain a \texttt{.dat} file:
+
+```{r echo = FALSE}
+knitr::include_graphics("datfile.png")
+```
+
+Just Copy & Paste in an Excel file! If you don't have "," as the default colum separator: Dati $\rightarrow$ Testo in colonne $\rightarrow$ Delimitato $\rightarrow$ virgola
+
+## 
+
+Just delete the unnecessary columns:
+
+-   date
+
+-   time
+
+-   build
+
+The first colu oof interest is \textbf{blockcode}. Use the filter function to see all the possible values of the colum
+
+## Blockcode
+
+```{r echo=FALSE}
+knitr::include_graphics("blockcode.png")
+```
+
+## Blockcode
+
+The blocks we need are the "critical" blocks of the IAT:
+
+-   \textcolor<2->{blue}{\texttt{PracticeWhitegood}}
+
+-   \textcolor<2->{blue}{\texttt{TestWhitegood}}
+
+-   \textcolor<3->{red}{\texttt{PracticeWhitebad}}
+
+-   \textcolor<3->{red}{\texttt{TestWhitebad}}
+
+\vspace{3mm}
+
+```{=tex}
+\begin{columns}
+    \begin{column}{.50\linewidth}
+    \onslide<2-> \textcolor{red}{White-Good/Black-Bad Condition (MappingA)} 
+    \end{column}
+\begin{column}{.50\linewidth}
+    \onslide<3-> \textcolor{blue}{Black-Good/White-Bad Condition (MappingB)}    
+\end{column}
+\end{columns}
+```
+Just select those..... by eliminating all other blocks!
+
+## 
+
+From the filter on the column \textbf{blockcode}, select all blocks but \texttt{PracticeWhitegood}, \texttt{TestWhitegood}, \texttt{PracticeWhitebad}, \texttt{TestWhitebad}:
+
+```{r echo = FALSE}
+knitr::include_graphics("filter0.png")
+```
+
+## Blockcode
+
+Highlight and delete all the rows that remained after the filter has been applied
+
+Don't panic when you see you have no more rows
+
+Remove the filter from \textbf{blockcode} and it's all done...ish
+
+## Trialcode
+
+After selecting the blocks of interest, we still have some trials that are part of the experiment but of no interest for the \emph{D} score computation (e.g., reminders, instructions)
+
+Set a filter on the \textbf{trialcode} column and select the non-relevant trials:
+
+```{r echo = FALSE, out.width="30%", fig.align='center'}
+knitr::include_graphics("filter1.png")
+```
+
+## Trialcode
+
+Select all the rows left after applying the filter
+
+Delete them
+
+(Again, don't panic)
+
+Remove the filter from the \textbf{trialcode} column
+
+## Polish the data set
+
+Remove any filter left
+
+Remove all the unnecessary columns (**blocknum**, **trialnum**, **trialcode,** **response**, **stimulusitem1**)
+
+Rename the remaining columns according to the shiny app instructions:
+
+-   **subject** $\rightarrow$ **participant**
+
+-   **blockcode** $\rightarrow$ **block**
+
+-   **latency** $\rightarrow$ **latency**
+
+-   **correct** $\rightarrow$ **correct**
+
+## The final look
+
+```{r fig.align='center', echo=FALSE}
+knitr::include_graphics("look.png")
+```
+
+
+## 
+
+The file must be saved as `.csv` with "," specified as the column separator 
+
+It's super important that "," is set as the column separator because otherwise the app won't work and won't throw an error (because the maintainer thought "I'll add the error message tomorrow")
+
+
+## Upload the data set
+
+```{r echo=F}
+include_graphics("app1.png")
+```
+
+Browse through your file, select the file you have just created. It will be automatically uploaded
+
+## Prepare the data set 
+
+```{r echo=F, fig.align="center", out.width="30%"}
+include_graphics("app2.png")
+```
+
+To change the mapping for the computation of the *D* score, just select the labels of the blocks from the drop down menu
+
+When you're all set just click "Prepare data" and wait for the "Data are ready" message to appear.
+
+## Select your *D*
+
+Just select the *D* score you want to compute fro the drop down menu, click on calculate and compute, and it's all done! The *D* scores will shortly appear in the Results panel
+
+
+```{r echo=F, fig.align='center', out.width="40%"}
+include_graphics("app3.png")
+```
+
+
+## (default) Results panel
+
+```{r echo=F}
+include_graphics("app4.png")
+```
+
+
+## Play with graphical representations and settings
+
+```{r echo=F}
+include_graphics("app5.png")
+```
+
+## Download
+
+Once you're done, you can download the results in a `.csv` file ("," is the column separator)
+
+The name of teh file contains the label of the last *D* score you have computed
+
+For instance, if *D3* is the last algorithm you have computed, than the file name will be: `ShinyAPPDscore3.csv`
+
+# `implicitMeasures` 
+
+
+
