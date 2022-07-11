@@ -407,26 +407,26 @@ We have a lot of stuff to get rid of....
 table(data$trialcode)
 ```
 
-## Prepare data set
+## Preparare il data set
 
 \footnotesize
 
 ```{r}
 
 data_clean = clean_iat(
-  data, # data set name
-  sbj_id = "subject", # column of sbj IDs
-  block_id = "blockcode", # column of the block labels
+  data,               # nome del data set
+  sbj_id = "subject", # colonna con gli ID dei soggetti
+  block_id = "blockcode", # Colonna con le etichette dei blocchi
   mapA_practice = "PracticeWhitegood", 
   mapA_test = "TestWhitegood",
   mapB_practice = "PracticeWhitebad",
   mapB_test = "TestWhitebad",
-  latency_id = "latency", # column with latency
-  accuracy_id = "correct", # column with accuracy
-  trial_id = "trialcode", # column with trial labels
-  trial_eliminate = c("reminder", "reminder1"), # trials to get rid of
-  demo_id = "blockcode", # column of the block labels
-  trial_demo = "demografica" # label of the demographic trials
+  latency_id = "latency",   # colonna delle latenze
+  accuracy_id = "correct",  # colonna delle accuratezze
+  trial_id = "trialcode",   # colonna con le etichette dei trial
+  trial_eliminate = c("reminder", "reminder1"), # trial da eliminare
+  demo_id = "blockcode",    # colonna con le etichette dei blocchi
+  trial_demo = "demografica" # etichette dei trial demografica
 )
 
 ```
@@ -441,37 +441,38 @@ names(data_clean)
 
 \normalsize
 
--   `r names(data_clean)[1]`: the data set on which we compute the *D* scores (with class `r class(data_clean[[1]])`)
+-   `r names(data_clean)[1]`: il data set su cui viene calcolato il *D* (con classe `r class(data_clean[[1]])`)
 
--   `r names(data_clean)[2]`: all the discarded trials
+-   `r names(data_clean)[2]`: I trial che sono stati scartati
 
--   `r names(data_clean)[3]`: a data set containing all the demographic infos (we will see it later!)
+-   `r names(data_clean)[3]`: Il data set che contiene le informazioni socio-demografiche
 
 \pause
 
-If you export in `.csv` `r names(data_clean)[1]` you can upload it to DScoreApp!
+Se esportate l'oggetto `r names(data_clean)[1]` in `.csv`, lo potete usare in DScoreApp!
 
 ```{r eval=FALSE}
 write.table(data_clean[[1]], "cleanIAT.csv", 
             sep = ",",       row.names = FALSE)
 ```
 
-## Compute *D* score
+## Calcolare il *D* score
 
 ```{r}
-iat = data_clean[[1]]
+iat = data_clean[[1]] # selezionare il data set pulito
 ```
 
-Use the `compute_iat()` function:
+usando la funzione `compute_iat()` e specificando l'algoritmo desiderato:
 
 ```{r}
-d3 = compute_iat(iat, Dscore = "d3")
+d3 = compute_iat(iat, # il data set pulito 
+                 Dscore = "d3") # l'alooritmo desidearto
 ```
 
 \small
 
 ```{r}
-head(d3[, 1:5])
+head(d3[, 1:5]) 
 ```
 
 ## 
