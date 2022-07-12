@@ -433,6 +433,8 @@ data_clean = clean_iat(
 
 ## 
 
+Cosa contiene `data_clean`?
+
 \footnotesize
 
 ```{r}
@@ -472,7 +474,7 @@ d3 = compute_iat(iat, # il data set pulito
 \small
 
 ```{r}
-head(d3[, 1:5]) 
+head(d3[, 1:5]) # prime 5 colonne
 ```
 
 ## 
@@ -480,7 +482,7 @@ head(d3[, 1:5])
 \small
 
 ```{r}
-head(d3[, 6:10])
+head(d3[, 6:10]) # colonna da 6 a 10
 ```
 
 ## 
@@ -488,7 +490,15 @@ head(d3[, 6:10])
 \small
 
 ```{r}
-head(d3[, 11:15])
+head(d3[, 11:15]) # colonna da 11 a 15
+```
+
+## 
+
+\small
+
+```{r} 
+head(d3[, 16:19]) # colonna da 16 a 19
 ```
 
 ## 
@@ -496,7 +506,7 @@ head(d3[, 11:15])
 \small
 
 ```{r}
-head(d3[, 16:19])
+head(d3[, 20:21]) # colonna 20 e 21
 ```
 
 ## 
@@ -504,41 +514,65 @@ head(d3[, 16:19])
 \small
 
 ```{r}
-head(d3[, 20:21])
-```
-
-## 
-
-\small
-
-```{r}
-head(d3[, 22:23])
+head(d3[, 22:23]) # colonna 22 e 23
 ```
 
 
 
 
-## Some plots!
+## Distribuzioni
 
+::: columns
+
+:::: column
 ```{r out.width="50%"}
-d_density(d3, graph = "violin")
+d_density(d3, 
+          graph = "violin")
 ```
+:::: 
 
-## Other plots
+:::: column
+```{r out.width="50%"}
+d_density(d3, 
+          graph = "density")
+```
+::::
 
-```{r out.width="70%"}
+::: 
+
+
+
+
+## Punti
+
+
+::: columns
+
+:::: column
+```{r out.width="50%"}
 d_point(d3, x_values = FALSE)
 ```
+:::: 
 
-## Multiple *D* scores at once
+:::: column
+```{r out.width="50%"}
+d_point(d3, x_values = FALSE, 
+        order_sbj = "D-increasing")
+```
+::::
+
+::: 
+
+
+## Diversi algoritmi allo stesso tempo 
 
 ```{r out.width="70%"}
-dscores = multi_dscore(iat, 
-                       ds = "error-inflation")
+dscores = multi_dscore(iat,  # data set pulito
+                       ds = "error-inflation") # quali algoritmi
 
 ```
 
-Careful!
+Attenzione!
 
 ```{r}
 names(dscores)
@@ -560,18 +594,18 @@ head(dscores[[1]])
 dscores[[2]]
 ```
 
-## Did we forget about `r names(data_clean)[3]`...?
+## Ci siamo dimenmticati di `r names(data_clean)[3]`...?
 
 \small
 
 ```{r out.lines=13}
-demo_raw = data_clean[[3]]
+demo_raw = data_clean[[3]] # data set con le info. demografiche
 str(demo_raw)
 ```
 
 ## 
 
-Let's start by keeping only the column of interest:
+Selezioniamo solo le colonne che servono:
 
 ```{r}
 demo_raw = demo_raw[, c("participant", "trialcode",
@@ -579,7 +613,9 @@ demo_raw = demo_raw[, c("participant", "trialcode",
 str(demo_raw)
 ```
 
-## Reshape the data set
+## "Giriamo" il data set
+
+In modo che soggetto sia su una riga singola:
 
 ```{r out.lines=8}
 demo <- reshape(demo_raw, 
@@ -589,7 +625,9 @@ demo <- reshape(demo_raw,
 str(demo)
 ```
 
-## Polish the data set
+
+
+## Sistemiamo il dataset
 
 \small
 
@@ -599,25 +637,37 @@ demo[,  c(3, 6:7)] <- apply(demo[,  c(3, 6:7)], 2, as.integer)
 str(demo)
 ```
 
-## Merge `demo` with `d3`
+## Qualche info 
+
+- `r colnames(demo)[1]`: ID dei partecipanti
+- `r colnames(demo)[2]`: Sesso dei partecipanti
+- `r colnames(demo)[3]`: Età
+- `r colnames(demo)[4]`: Occupazione (`r unique(demo$occupazio)`)
+- `r colnames(demo)[5]`: Istruzione (`r unique(demo$edu)`)
+- `r colnames(demo)[6]`: Atteggiamento verso le persone Bianche/di colore (1 = *Preferisco molto le persone bianche rispetto alle persone di colore*, 6=*Preferisco molto le persone nere rispetto alle persone bianche*)
+- `r colnames(demo)[7]`: Orientamento politico (1 - *Left wing orientation*, 6 -*Right wing orientation*)
+
+
+## Unire  `demo` with `d3`
 
 \small
 
 ```{r}
-d3complete = merge(d3, demo, 
-                   by = "participant")
+d3complete = merge(d3, # data set con i D score 
+                   demo, # data set con le info. demografiche
+                   by = "participant") # id della variabole per unire
 str(d3complete[17:29])
 ```
 
-## Compute correlation
+## Calcolo delle correlazioni
 
 \small
 
 ```{r results='asis'}
-correlations <- data.frame(cor(d3complete[, 
+correlazioni <- data.frame(cor(d3complete[, 
                                           c("dscore_d3", "pol1", "pol2")]))
-correlations <- round(correlations, 2)
-correlations[upper.tri(correlations, diag = TRUE)] <- ""
+correlazioni <- round(correlazioni, 2)
+correlazioni[upper.tri(correlazioni, diag = TRUE)] <- ""
 ```
 
 \normalsize
@@ -625,11 +675,20 @@ correlations[upper.tri(correlations, diag = TRUE)] <- ""
 Results are in Table \ref{tab:corr}:
 
 ```{r results='asis', echo=FALSE}
-print(xtable(correlations, caption = "Race IAT correlations", label = "tab:corr"),comment = FALSE, 
+print(xtable(correlazioni, 
+             caption = "Race IAT correlations", label = "tab:corr"),comment = FALSE, 
       caption.placement = "top")
 ```
 
-# Supplementary material
+## Significatività delle correlazioni
+
+```{r}
+cor.test(~ pol1 + dscore_d3, data = d3complete)
+```
+
+
+
+# Letture
 
 ## 
 
