@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Implicit assessment: Definitions and evolution}{3}{0}{1}
+\beamer@sectionintoc {2}{The Implicit Association Test}{12}{0}{2}
+\beamer@sectionintoc {3}{What's wrong with the IAT}{19}{0}{3}
+\beamer@sectionintoc {4}{One, not the only one}{24}{0}{4}
+\beamer@sectionintoc {5}{Together is not always better}{39}{0}{5}
+\beamer@sectionintoc {6}{A possible workaround}{46}{0}{6}
+\beamer@sectionintoc {7}{Rasch gone mixed}{54}{0}{7}
+\beamer@sectionintoc {8}{The easy way}{61}{0}{8}

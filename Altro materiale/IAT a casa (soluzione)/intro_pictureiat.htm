@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow"/> 
+<title>iat intro</title>
+<style>
+.center {
+	text-align: center;
+	}
+.left {	
+	text-align: left;
+	}
+body {
+    background-color: black;
+    font-family: arial;
+    font-style: italic;
+    color:white;	
+    font-size: 3.5vh;
+}
+h1 {
+    font-size: 5vh;
+}
+p {
+    font-size: 3.5vh;
+}
+p.bigger {
+    font-size: 4vh;
+}	
+li {
+    font-size: 3.5vh;
+}
+.blue {
+	color: blue;
+}	
+.yellow {
+	color: yellow;
+}
+.red {
+	color: red;
+}
+.green {
+	color: lightgreen;
+}
+table, th, td {
+    border: 0.5vh solid black;
+    border-collapse: collapse;	
+	border-color: white;
+}
+th, td {
+    padding: 1vh;
+}
+th {
+    text-align: left;
+}
+.firstrow {
+	background-color: gray;
+}
+</style>
+</head>
+
+<body>
+	<div class = "left">
+		<h1>Implicit Association Test</h1>
+		<p> In questo compito devi premere il tasto 'E' o il tasto 'I' per assegnare le parole e le figure alle loro categorie il più velocemente possibile.  
+                     Qui trovi le quattro categorie e le parole e le immagini che appartengono ad esse:</p>
+		
+		<table style="width:90%">
+		<tr>
+			<th class="firstrow">Categoria</th>
+			<th class="firstrow">Stimolo</th> 
+		</tr>
+		
+		<tr class="green">
+			<td><%item.attributeAlabel.item(1)%></td>
+			<td><%item.attributeA.item(1)%>, <%item.attributeA.item(2)%>, <%item.attributeA.item(3)%>, <%item.attributeA.item(4)%>, 
+				<%item.attributeA.item(5)%>, <%item.attributeA.item(6)%>, <%item.attributeA.item(7)%>, <%item.attributeA.item(8)%></td>
+		</tr>
+		
+		<tr class="green">
+			<td><%item.attributeBlabel.item(1)%></td>
+			<td><%item.attributeB.item(1)%>, <%item.attributeB.item(2)%>, <%item.attributeB.item(3)%>, <%item.attributeB.item(4)%>, 
+				<%item.attributeB.item(5)%>, <%item.attributeB.item(6)%>, <%item.attributeB.item(7)%>, <%item.attributeB.item(8)%></td>
+		</tr>
+		
+		<tr>
+			<td><%item.targetAlabel.item(1)%></td>
+			<td><img src="<%item.targetA.1%>" style="height: 7vh"/>&nbsp;&nbsp;&nbsp;<img src="<%item.targetA.2%>" style="height: 7vh"/>&nbsp;&nbsp;&nbsp;
+				<img src="<%item.targetA.3%>" style="height: 7vh"/>&nbsp;&nbsp;&nbsp;<img src="<%item.targetA.4%>" style="height: 7vh"/>&nbsp;&nbsp;&nbsp;
+				<img src="<%item.targetA.5%>" style="height: 7vh"/>&nbsp;&nbsp;&nbsp;<img src="<%item.targetA.6%>" style="height: 7vh"/>&nbsp;&nbsp;&nbsp;
+			</td>
+		</tr>
+  
+		<tr>
+			<td><%item.targetBlabel.item(1)%></td>
+			<td><img src="<%item.targetB.1%>" style="height: 7vh">&nbsp;&nbsp;&nbsp;<img src="<%item.targetB.2%>" style="height: 7vh">&nbsp;&nbsp;&nbsp;
+				<img src="<%item.targetB.3%>" style="height: 7vh">&nbsp;&nbsp;&nbsp;<img src="<%item.targetB.4%>" style="height: 7vh">&nbsp;&nbsp;&nbsp;
+				<img src="<%item.targetB.5%>" style="height: 7vh">&nbsp;&nbsp;&nbsp;<img src="<%item.targetB.6%>" style="height: 7vh">&nbsp;&nbsp;&nbsp;
+			</td>
+		</tr>
+	</table><br>
+	<p>Il compito è composto da 7 parti, con relative istruzioni. Ti verrà anche presentato un breve questionario. </p>
+	</div>
+
+
+</body>
+
+</html>

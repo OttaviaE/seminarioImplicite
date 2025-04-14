@@ -1,0 +1,10 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\beamer@sectionintoc {1}{Look at the data!}{2}{0}{1}
+\beamer@sectionintoc {2}{Una possibile soluzione}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Variabili latenti }{15}{0}{2}
+\beamer@sectionintoc {3}{In pratica}{22}{0}{3}
+\beamer@subsectionintoc {3}{1}{Step preparativi}{23}{0}{3}
+\beamer@subsectionintoc {3}{2}{Stima dei modelli}{25}{0}{3}
+\beamer@subsectionintoc {3}{3}{Model comparison}{28}{0}{3}
+\beamer@subsectionintoc {3}{4}{Estrarre le stime del modello vincente}{32}{0}{3}

@@ -1,0 +1,7 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\beamer@sectionintoc {2}{Cosa ci serve}{3}{0}{1}
+\beamer@sectionintoc {3}{Il file Inquisit}{6}{0}{2}
+\beamer@sectionintoc {4}{Experiment time!}{40}{0}{3}
+\beamer@sectionintoc {5}{Tempo di modifiche}{44}{0}{4}
+\beamer@sectionintoc {6}{A casa}{80}{0}{5}

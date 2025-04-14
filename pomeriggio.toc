@@ -1,0 +1,5 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\beamer@sectionintoc {1}{Cosa ci serve}{3}{0}{1}
+\beamer@sectionintoc {2}{The Inquisit file}{6}{0}{2}
+\beamer@sectionintoc {3}{Experiment time!}{22}{0}{3}

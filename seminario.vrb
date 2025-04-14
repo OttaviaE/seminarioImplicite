@@ -1,0 +1,18 @@
+With ``<trial instructions>'' we finally set the behavior of ``instructions'' throughout the experiment:
+	
+	\begin{verbatim}
+		<trial instructions>
+		/ ontrialbegin = [
+		values.progresswidth += 10;
+		values.instructionIndex += 1;
+		]
+		/ stimulustimes = [1=instructions, spacebar, progressbar, progressbar_fill]
+		/ correctresponse = (" ")
+		/ errormessage = false
+		/ recorddata = false
+		/ showmousecursor = true
+		</trial>
+	\end{verbatim}
+
+\texttt{/ stimulustimes = [1=instructions, spacebar, progressbar, progressbar\_fill]} tells the stimuli that have to be included in the \texttt{instructions} trial.
+

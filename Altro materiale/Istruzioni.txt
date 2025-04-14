@@ -1,0 +1,285 @@
+<item IAT1>
+/1 = 
+"In questa prova, alcune immagini appariranno una alla volta al centro dello schermo. Il tuo compito è associarle alle categorie che appaiono in corrispondenza degli angoli superiori. 
+
+Tutte le immagini che appartengono alla categoria '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le immagini che appartengono alla categoria '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! Precisione e velocità sono parimenti importanti. 
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+
+<text IAT1>
+/ items = IAT1
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT1>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT1, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT1>
+/trials = [1= IAT1]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+<item IAT2>
+/1 = "
+In questa prova, alcune parole appariranno una alla volta al centro dello schermo. Il tuo compito è associarle alle categorie che appaiono in corrispondenza degli angoli superiori. 
+
+Tutte le parole che appartengono alla categoria '<%item.attributeAlabel.item(1)%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le parole che appartengono alla categoria '<%item.attributeBlabel.item(1)%>' destra dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire.
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT2>
+/ items = IAT2
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT2>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT2, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT2>
+/trials = [1= IAT2]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+<item IAT3>
+/1 = "
+Le quattro categorie che hai visto separatamente, ora appaiono insieme. Ricordati, ogni stimolo appartiene solo a una categoria. 
+
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeAlabel.item(1)%>' e '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeBlabel.item(1)%>' e '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire. 
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT3>
+/ items = IAT3
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT3>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT3, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT3>
+/trials = [1= IAT3]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+
+<item IAT4>
+/1 = "
+Attenzione! Le etichette hanno cambiato posizione. 
+
+Tutte le immagini che appartengono alla categoria a '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le immagini che appartengono alla categoria a '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire.
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT4>
+/ items = IAT4
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT4>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT4, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT4>
+/trials = [1= IAT4]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+<item IAT5>
+/1 = "
+Le quattro categorie appaiono di nuovo insieme. Ricordati, ogni stimolo appartiene solo a una categoria. 
+
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeAlabel.item(1)%>' e '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeBlabel.item(1)%>' e '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire.
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT5>
+/ items = IAT5
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT5>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT5, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT5>
+/trials = [1= IAT5]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+<item IAT_pause>
+/1 = "Riposati se ti senti affaticato.
+
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeAlabel.item(1)%>' e '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeBlabel.item(1)%>' e '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire.
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT_pause>
+/ items = IAT_pause
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT_pause>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT_pause, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT_pause>
+/trials = [1= IAT_pause]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+<item demo_istruzioni>
+/1 = 
+"Per favore, compila il questionario che apparirà nelle pagine seguenti"
+</item>
+
+
+<text demo_istruzioni>
+/ items = demo_istruzioni
+/ hjustify = center
+/ size = (100%, 60%)
+/ position = (50%, 35%)
+/ valign = top
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial demo_istruzioni>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=demo_istruzioni, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block demo_istruzioni>
+/trials = [1= demo_istruzioni]
+/ recorddata = false
+/responsemode = correct
+</block>

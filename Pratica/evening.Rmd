@@ -36,7 +36,12 @@ header-includes:
     - \setbeamercolor*{item}{fg=template}
     - \setbeamertemplate{frametitle}[default][center]
     - \setbeamercolor{section name}{fg=white}
-    - \AtBeginSection{\frame{\sectionpage}}
+    - \AtBeginSection[]
+          {
+             \begin{frame}
+             \tableofcontents[currentsection]
+              \end{frame}
+          }   
 ---
 
 ```{r setup, include=FALSE}

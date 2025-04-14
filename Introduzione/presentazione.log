@@ -1,0 +1,3842 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  3 JAN 2024 10:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./presentazione.tex
+(presentazione.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+Document Class: beamer 2023/05/15 v3.70 A class for typesetting presentations
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
+sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count186
+)
+\beamer@tempbox=\box51
+\beamer@tempcount=\count187
+\c@beamerpauses=\count188
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
+.sty
+\beamer@slideinframe=\count189
+\beamer@minimum=\count190
+\beamer@decode@box=\box52
+)
+\beamer@commentbox=\box53
+\beamer@modecount=\count191
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen140
+\footheight=\dimen141
+\sidebarheight=\dimen142
+\beamer@tempdim=\dimen143
+\beamer@finalheight=\dimen144
+\beamer@animht=\dimen145
+\beamer@animdp=\dimen146
+\beamer@animwd=\dimen147
+\beamer@leftmargin=\dimen148
+\beamer@rightmargin=\dimen149
+\beamer@leftsidebar=\dimen150
+\beamer@rightsidebar=\dimen151
+\beamer@boxsize=\dimen152
+\beamer@vboxoffset=\dimen153
+\beamer@descdefault=\dimen154
+\beamer@descriptionwidth=\dimen155
+\beamer@lastskip=\skip48
+\beamer@areabox=\box54
+\beamer@animcurrent=\box55
+\beamer@animshowbox=\box56
+\beamer@sectionbox=\box57
+\beamer@logobox=\box58
+\beamer@linebox=\box59
+\beamer@sectioncount=\count192
+\beamer@subsubsectionmax=\count193
+\beamer@subsectionmax=\count194
+\beamer@sectionmax=\count195
+\beamer@totalheads=\count196
+\beamer@headcounter=\count197
+\beamer@partstartpage=\count198
+\beamer@sectionstartpage=\count199
+\beamer@subsectionstartpage=\count266
+\beamer@animationtempa=\count267
+\beamer@animationtempb=\count268
+\beamer@xpos=\count269
+\beamer@ypos=\count270
+\beamer@ypos@offset=\count271
+\beamer@showpartnumber=\count272
+\beamer@currentsubsection=\count273
+\beamer@coveringdepth=\count274
+\beamer@sectionadjust=\count275
+\beamer@toclastsection=\count276
+\beamer@tocsectionnumber=\count277
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
+s.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+))
+\beamer@paperwidth=\skip49
+\beamer@paperheight=\skip50
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count278
+\Gm@cntv=\count279
+\c@Gm@tempcnt=\count280
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks18
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box60
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+)))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex
+\pgf@x=\dimen166
+\pgf@xa=\dimen167
+\pgf@xb=\dimen168
+\pgf@xc=\dimen169
+\pgf@y=\dimen170
+\pgf@ya=\dimen171
+\pgf@yb=\dimen172
+\pgf@yc=\dimen173
+\c@pgf@counta=\count281
+\c@pgf@countb=\count282
+\c@pgf@countc=\count283
+\c@pgf@countd=\count284
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count285
+\pgfmath@box=\box61
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count286
+)))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count291
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count292
+\pgfsyssoftpath@bigbuffer@items=\count293
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count294
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen261
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen265
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count295
+\pgf@shadingcount=\count296
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box65
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
+ty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count297
+\XC@countmixins=\count298
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-09 v7.01f Hypertext links for LaTeX
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-09 v2.55 Cross-referencing by name of section
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count299
+)
+\@linkdim=\dimen267
+\Hy@linkcounter=\count300
+\Hy@pagecounter=\count301
+ (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-09 v7.01f Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count302
+ (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-09 v7.01f Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4054.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4054.
+Package hyperref Info: Option `implicit' set `false' on input line 4054.
+Package hyperref Info: Hyper figures OFF on input line 4171.
+Package hyperref Info: Link nesting OFF on input line 4176.
+Package hyperref Info: Hyper index ON on input line 4179.
+Package hyperref Info: Plain pages OFF on input line 4186.
+Package hyperref Info: Backreferencing OFF on input line 4191.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4438.
+\c@Hy@tempcnt=\count303
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4776.
+\XeTeXLinkMargin=\dimen268
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count304
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
+Package hyperref Info: Hyper figures OFF on input line 6055.
+Package hyperref Info: Link nesting OFF on input line 6060.
+Package hyperref Info: Hyper index ON on input line 6063.
+Package hyperref Info: backreferencing OFF on input line 6070.
+Package hyperref Info: Link coloring OFF on input line 6075.
+Package hyperref Info: Link coloring with OCG OFF on input line 6080.
+Package hyperref Info: PDF/A mode OFF on input line 6085.
+\Hy@abspage=\count305
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-09 v7.01f Hyperref driver for pdfTeX
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
+es.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
+ibility.sty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
+ty (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
+accent.sty
+Package: sansmathaccent 2020/01/31
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
+ator.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
+ty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
+eens.sty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
+y.sty
+\beamer@argscount=\count308
+\beamer@lastskipcover=\skip51
+\beamer@trivlistdepth=\count309
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
+sty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
+n.sty
+\c@lecture=\count310
+\c@part=\count311
+\c@section=\count312
+\c@subsection=\count313
+\c@subsubsection=\count314
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
+sty
+\beamer@framebox=\box66
+\beamer@frametitlebox=\box67
+\beamer@zoombox=\box68
+\beamer@zoomcount=\count315
+\beamer@zoomframecount=\count316
+\beamer@frametextheight=\dimen271
+\c@subsectionslide=\count317
+\beamer@frametopskip=\skip52
+\beamer@framebottomskip=\skip53
+\beamer@frametopskipautobreak=\skip54
+\beamer@framebottomskipautobreak=\skip55
+\beamer@envbody=\toks30
+\framewidth=\dimen272
+\c@framenumber=\count318
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
+im.sty
+\beamer@verbatimfileout=\write4
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
+ize.sty
+\beamer@splitbox=\box69
+\beamer@autobreakcount=\count319
+\beamer@autobreaklastheight=\dimen273
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
+omponents.sty
+\beamer@footins=\box70
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
+sty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
+sty
+\beamer@frameboxcopy=\box71
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
+y)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
+tes.sty
+\beamer@sbttoks=\toks33
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
+plates.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
+sty
+\bmb@box=\box72
+\bmb@colorbox=\box73
+\bmb@boxwidth=\dimen274
+\bmb@boxheight=\dimen275
+\bmb@prevheight=\dimen276
+\bmb@temp=\dimen277
+\bmb@dima=\dimen278
+\bmb@dimb=\dimen279
+\bmb@prevheight=\dimen280
+)
+\beamer@blockheadheight=\dimen281
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
+tructure.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\beamer@bibiconwidth=\skip56
+\c@figure=\count320
+\c@table=\count321
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tion.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tionsymbols.tex)
+\beamer@section@min@dim=\dimen282
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
+ms.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen283
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen284
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count322
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count323
+\leftroot@=\count324
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count325
+\DOTSCASE@=\count326
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen285
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count327
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count328
+\dotsspace@=\muskip17
+\c@parentequation=\count329
+\dspbrk@lvl=\count330
+\tag@help=\toks36
+\row@=\count331
+\column@=\count332
+\maxfields@=\count333
+\andhelp@=\toks37
+\eqnshift@=\dimen286
+\alignsep@=\dimen287
+\tagshift@=\dimen288
+\tagwidth@=\dimen289
+\totwidth@=\dimen290
+\lineht@=\dimen291
+\@envbody=\toks38
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks45
+)
+\c@theorem=\count334
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
+.sty))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
+lt.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
+efault.sty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+default.sty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+default.sty
+\beamer@dima=\dimen292
+\beamer@dimb=\dimen293
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+default.sty)))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeCambr
+idgeUS.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+rounded.sty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+infolines.sty)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+beaver.sty))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen294
+\ar@mcellbox=\box76
+\extrarowheight=\dimen295
+\NC@list=\toks46
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box77
+)
+\TX@col@width=\dimen296
+\TX@old@table=\dimen297
+\TX@old@col=\dimen298
+\TX@target=\dimen299
+\TX@delta=\dimen300
+\TX@cols=\count335
+\TX@ftn=\toks47
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/tikzsymbols\tikzsymbols
+.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-11-09 L3 programming layer (loader) 
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count336
+\l__pdf_internal_box=\box78
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: tikzsymbols 2021/12/14 v4.12a Some symbols created using tikz and LaTe
+X3.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box79
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen301
+\pgf@nodesepend=\dimen302
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen303
+\pgffor@skip=\dimen304
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count337
+\pgfplotmarksize=\dimen305
+)
+\tikz@lastx=\dimen306
+\tikz@lasty=\dimen307
+\tikz@lastxsaved=\dimen308
+\tikz@lastysaved=\dimen309
+\tikz@lastmovetox=\dimen310
+\tikz@lastmovetoy=\dimen311
+\tikzleveldistance=\dimen312
+\tikzsiblingdistance=\dimen313
+\tikz@figbox=\box80
+\tikz@figbox@bg=\box81
+\tikz@tempbox=\box82
+\tikz@tempbox@bg=\box83
+\tikztreelevel=\count338
+\tikznumberofchildren=\count339
+\tikznumberofcurrentchild=\count340
+\tikz@fig@count=\count341
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count342
+\pgfmatrixcurrentcolumn=\count343
+\pgf@matrix@numberofcolumns=\count344
+)
+\tikz@expandcount=\count345
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen314
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen315
+\pgfdecoratedremainingdistance=\dimen316
+\pgfdecoratedinputsegmentcompleteddistance=\dimen317
+\pgfdecoratedinputsegmentremainingdistance=\dimen318
+\pgf@decorate@distancetomove=\dimen319
+\pgf@decorate@repeatstate=\count346
+\pgfdecorationsegmentamplitude=\dimen320
+\pgfdecorationsegmentlength=\dimen321
+)
+\tikz@lib@dec@box=\box84
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\l__tikzsymbols_Moai_thickness_dim=\dimen322
+\l__tikzsymbols_Kochtopf_nr_arguments_int=\count347
+\l__tikzsymbols_Bratpfanne_nr_arguments_int=\count348
+\l__tikzsymbols_Schneebesen_nr_arguments_int=\count349
+\l__tikzsymbols_Sieb_nr_arguments_int=\count350
+\l__tikzsymbols_Purierstab_nr_arguments_int=\count351
+\l__tikzsymbols_Dreizack_nr_arguments_int=\count352
+\l__tikzsymbols_Backblech_nr_arguments_int=\count353
+\l__tikzsymbols_Ofen_nr_arguments_int=\count354
+\l__tikzsymbols_Pfanne_nr_arguments_int=\count355
+\l__tikzsymbols_Herd_nr_arguments_int=\count356
+\l__tikzsymbols_Saftpresse_nr_arguments_int=\count357
+\l__tikzsymbols_Schussel_nr_arguments_int=\count358
+\l__tikzsymbols_Schaler_nr_arguments_int=\count359
+\l__tikzsymbols_Reibe_nr_arguments_int=\count360
+\l__tikzsymbols_Flasche_nr_arguments_int=\count361
+\l__tikzsymbols_Nudelholz_nr_arguments_int=\count362
+\l__tikzsymbols_Knoblauchpresse_nr_arguments_int=\count363
+\l__tikzsymbols_Sadey_nr_arguments_int=\count364
+\l__tikzsymbols_dSadey_nr_arguments_int=\count365
+\l__tikzsymbols_Changey_nr_arguments_int=\count366
+\l__tikzsymbols_dChangey_nr_arguments_int=\count367
+\l__tikzsymbols_cChangey_nr_arguments_int=\count368
+\l__tikzsymbols_dcChangey_nr_arguments_int=\count369
+\l__tikzsymbols_Annoey_nr_arguments_int=\count370
+\l__tikzsymbols_dAnnoey_nr_arguments_int=\count371
+\l__tikzsymbols_Smiley_nr_arguments_int=\count372
+\l__tikzsymbols_dSmiley_nr_arguments_int=\count373
+\l__tikzsymbols_Laughey_nr_arguments_int=\count374
+\l__tikzsymbols_dLaughey_nr_arguments_int=\count375
+\l__tikzsymbols_Neutrey_nr_arguments_int=\count376
+\l__tikzsymbols_dNeutrey_nr_arguments_int=\count377
+\l__tikzsymbols_Winkey_nr_arguments_int=\count378
+\l__tikzsymbols_oldWinkey_nr_arguments_int=\count379
+\l__tikzsymbols_dWinkey_nr_arguments_int=\count380
+\l__tikzsymbols_olddWinkey_nr_arguments_int=\count381
+\l__tikzsymbols_Sey_nr_arguments_int=\count382
+\l__tikzsymbols_dSey_nr_arguments_int=\count383
+\l__tikzsymbols_Xey_nr_arguments_int=\count384
+\l__tikzsymbols_dXey_nr_arguments_int=\count385
+\l__tikzsymbols_Innocey_nr_arguments_int=\count386
+\l__tikzsymbols_wInnocey_nr_arguments_int=\count387
+\l__tikzsymbols_dInnocey_nr_arguments_int=\count388
+\l__tikzsymbols_Cooley_nr_arguments_int=\count389
+\l__tikzsymbols_dCooley_nr_arguments_int=\count390
+\l__tikzsymbols_Tongey_nr_arguments_int=\count391
+\l__tikzsymbols_dTongey_nr_arguments_int=\count392
+\l__tikzsymbols_Nursey_nr_arguments_int=\count393
+\l__tikzsymbols_dNursey_nr_arguments_int=\count394
+\l__tikzsymbols_Vomey_nr_arguments_int=\count395
+\l__tikzsymbols_dVomey_nr_arguments_int=\count396
+\l__tikzsymbols_Walley_nr_arguments_int=\count397
+\l__tikzsymbols_rWalley_nr_arguments_int=\count398
+\l__tikzsymbols_dWalley_nr_arguments_int=\count399
+\l__tikzsymbols_drWalley_nr_arguments_int=\count400
+\l__tikzsymbols_Cat_nr_arguments_int=\count401
+\l__tikzsymbols_SchrodingersCat_nr_arguments_int=\count402
+\l__tikzsymbols_Ninja_nr_arguments_int=\count403
+\l__tikzsymbols_dNinja_nr_arguments_int=\count404
+\l__tikzsymbols_Sleepey_nr_arguments_int=\count405
+\l__tikzsymbols_dSleepey_nr_arguments_int=\count406
+\l__tikzsymbols_Maskey_nr_arguments_int=\count407
+\l__tikzsymbols_NiceReapey_nr_arguments_int=\count408
+\l__tikzsymbols_Strichmaxerl_nr_arguments_int=\count409
+\l__tikzsymbols_Person_nr_arguments_int=\count410
+\l__tikzsymbols_Heart_nr_arguments_int=\count411
+\l__tikzsymbols_dHeart_nr_arguments_int=\count412
+\l__tikzsymbols_HeartBroken_nr_arguments_int=\count413
+\l__tikzsymbols_Candle_nr_arguments_int=\count414
+\l__tikzsymbols_Fire_nr_arguments_int=\count415
+\l__tikzsymbols_Coffeecup_nr_arguments_int=\count416
+\l__tikzsymbols_Chair_nr_arguments_int=\count417
+\l__tikzsymbols_Bed_nr_arguments_int=\count418
+\l__tikzsymbols_Tribar_nr_arguments_int=\count419
+\l__tikzsymbols_Moai_nr_arguments_int=\count420
+\l__tikzsymbols_Snowman_nr_arguments_int=\count421
+\l__tikzsymbols_BasicTree_nr_arguments_int=\count422
+\l__tikzsymbols_WorstTree_nr_arguments_int=\count423
+\l__tikzsymbols_Springtree_nr_arguments_int=\count424
+\l__tikzsymbols_Summertree_nr_arguments_int=\count425
+\l__tikzsymbols_Autumntree_nr_arguments_int=\count426
+\l__tikzsymbols_Wintertree_nr_arguments_int=\count427
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/spot\spot.sty
+Package: spot 2011/05/09 v1.1 Spotlight highlighting
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.callouts.code.tex))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box85
+\pgfnodeparttwobox=\box86
+\pgfnodepartthreebox=\box87
+\pgfnodepartfourbox=\box88
+\pgfnodeparttwentybox=\box89
+\pgfnodepartnineteenbox=\box90
+\pgfnodeparteighteenbox=\box91
+\pgfnodepartseventeenbox=\box92
+\pgfnodepartsixteenbox=\box93
+\pgfnodepartfifteenbox=\box94
+\pgfnodepartfourteenbox=\box95
+\pgfnodepartthirteenbox=\box96
+\pgfnodeparttwelvebox=\box97
+\pgfnodepartelevenbox=\box98
+\pgfnodeparttenbox=\box99
+\pgfnodepartninebox=\box100
+\pgfnodeparteightbox=\box101
+\pgfnodepartsevenbox=\box102
+\pgfnodepartsixbox=\box103
+\pgfnodepartfivebox=\box104
+)))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+\c@spot@spots=\count428
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/textpos\textpos.sty
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
+\TP@textbox=\box105
+\TP@holdbox=\box106
+\TPHorizModule=\dimen323
+\TPVertModule=\dimen324
+\TP@margin=\dimen325
+\TP@absmargin=\dimen326
+
+Grid set 16 x 16 = 22.7622pt x 17.07166pt
+\TPboxrulesize=\dimen327
+\TP@ox=\dimen328
+\TP@oy=\dimen329
+\TP@tbargs=\toks50
+TextBlockOrigin set to 0pt x 0pt
+) (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen330
+\lightrulewidth=\dimen331
+\cmidrulewidth=\dimen332
+\belowrulesep=\dimen333
+\belowbottomsep=\dimen334
+\aboverulesep=\dimen335
+\abovetopsep=\dimen336
+\cmidrulesep=\dimen337
+\cmidrulekern=\dimen338
+\defaultaddspace=\dimen339
+\@cmidla=\count429
+\@cmidlb=\count430
+\@aboverulesep=\dimen340
+\@belowrulesep=\dimen341
+\@thisruleclass=\count431
+\@lastruleclass=\count432
+\@thisrulewidth=\dimen342
+) (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count433
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count434
+\c@listtotal=\count435
+\c@listcount=\count436
+\c@liststart=\count437
+\c@liststop=\count438
+\c@citecount=\count439
+\c@citetotal=\count440
+\c@multicitecount=\count441
+\c@multicitetotal=\count442
+\c@instcount=\count443
+\c@maxnames=\count444
+\c@minnames=\count445
+\c@maxitems=\count446
+\c@minitems=\count447
+\c@citecounter=\count448
+\c@maxcitecounter=\count449
+\c@savedcitecounter=\count450
+\c@uniquelist=\count451
+\c@uniquename=\count452
+\c@refsection=\count453
+\c@refsegment=\count454
+\c@maxextratitle=\count455
+\c@maxextratitleyear=\count456
+\c@maxextraname=\count457
+\c@maxextradate=\count458
+\c@maxextraalpha=\count459
+\c@abbrvpenalty=\count460
+\c@highnamepenalty=\count461
+\c@lownamepenalty=\count462
+\c@maxparens=\count463
+\c@parenlevel=\count464
+\blx@tempcnta=\count465
+\blx@tempcntb=\count466
+\blx@tempcntc=\count467
+\c@blx@maxsection=\count468
+\blx@maxsegment@0=\count469
+\blx@notetype=\count470
+\blx@parenlevel@text=\count471
+\blx@parenlevel@foot=\count472
+\blx@sectionciteorder@0=\count473
+\blx@sectionciteorderinternal@0=\count474
+\blx@entrysetcounter=\count475
+\blx@biblioinstance=\count476
+\labelnumberwidth=\skip67
+\labelalphawidth=\skip68
+\biblabelsep=\skip69
+\bibitemsep=\skip70
+\bibnamesep=\skip71
+\bibinitsep=\skip72
+\bibparsep=\skip73
+\bibhang=\skip74
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language79
+\c@mincomprange=\count477
+\c@maxcomprange=\count478
+\c@mincompwidth=\count479
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count480
+\c@savedafterword=\count481
+\c@annotator=\count482
+\c@savedannotator=\count483
+\c@author=\count484
+\c@savedauthor=\count485
+\c@bookauthor=\count486
+\c@savedbookauthor=\count487
+\c@commentator=\count488
+\c@savedcommentator=\count489
+\c@editor=\count490
+\c@savededitor=\count491
+\c@editora=\count492
+\c@savededitora=\count493
+\c@editorb=\count494
+\c@savededitorb=\count495
+\c@editorc=\count496
+\c@savededitorc=\count497
+\c@foreword=\count498
+\c@savedforeword=\count499
+\c@holder=\count500
+\c@savedholder=\count501
+\c@introduction=\count502
+\c@savedintroduction=\count503
+\c@namea=\count504
+\c@savednamea=\count505
+\c@nameb=\count506
+\c@savednameb=\count507
+\c@namec=\count508
+\c@savednamec=\count509
+\c@translator=\count510
+\c@savedtranslator=\count511
+\c@shortauthor=\count512
+\c@savedshortauthor=\count513
+\c@shorteditor=\count514
+\c@savedshorteditor=\count515
+\c@labelname=\count516
+\c@savedlabelname=\count517
+\c@institution=\count518
+\c@savedinstitution=\count519
+\c@lista=\count520
+\c@savedlista=\count521
+\c@listb=\count522
+\c@savedlistb=\count523
+\c@listc=\count524
+\c@savedlistc=\count525
+\c@listd=\count526
+\c@savedlistd=\count527
+\c@liste=\count528
+\c@savedliste=\count529
+\c@listf=\count530
+\c@savedlistf=\count531
+\c@location=\count532
+\c@savedlocation=\count533
+\c@organization=\count534
+\c@savedorganization=\count535
+\c@origlocation=\count536
+\c@savedoriglocation=\count537
+\c@origpublisher=\count538
+\c@savedorigpublisher=\count539
+\c@publisher=\count540
+\c@savedpublisher=\count541
+\c@language=\count542
+\c@savedlanguage=\count543
+\c@origlanguage=\count544
+\c@savedoriglanguage=\count545
+\c@pageref=\count546
+\c@savedpageref=\count547
+\shorthandwidth=\skip75
+\shortjournalwidth=\skip76
+\shortserieswidth=\skip77
+\shorttitlewidth=\skip78
+\shortauthorwidth=\skip79
+\shorteditorwidth=\skip80
+\locallabelnumberwidth=\skip81
+\locallabelalphawidth=\skip82
+\localshorthandwidth=\skip83
+\localshortjournalwidth=\skip84
+\localshortserieswidth=\skip85
+\localshorttitlewidth=\skip86
+\localshortauthorwidth=\skip87
+\localshorteditorwidth=\skip88
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count548
+\c@textcitetotal=\count549
+\c@textcitemaxnames=\count550
+\c@biburlbigbreakpenalty=\count551
+\c@biburlbreakpenalty=\count552
+\c@biburlnumpenalty=\count553
+\c@biburlucpenalty=\count554
+\c@biburllcpenalty=\count555
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count556
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear
+.bbx
+File: authoryear.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count557
+\c@bbx:relatedtotal=\count558
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear
+.cbx
+File: authoryear.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2023-11-09 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+\@quotelevel=\count559
+\@quotereset=\count560
+ (presentazione.aux
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid151' multiply defined.
+
+
+LaTeX Warning: Label `pgfid152' multiply defined.
+
+
+LaTeX Warning: Label `pgfid153' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid378' multiply defined.
+
+
+LaTeX Warning: Label `pgfid379' multiply defined.
+
+
+LaTeX Warning: Label `pgfid380' multiply defined.
+
+
+LaTeX Warning: Label `pgfid559' multiply defined.
+
+
+LaTeX Warning: Label `pgfid559' multiply defined.
+
+
+LaTeX Warning: Label `pgfid559' multiply defined.
+
+
+LaTeX Warning: Label `pgfid559' multiply defined.
+
+
+LaTeX Warning: Label `pgfid559' multiply defined.
+
+
+LaTeX Warning: Label `pgfid559' multiply defined.
+
+
+LaTeX Warning: Label `pgfid559' multiply defined.
+
+)
+\openout1 = `presentazione.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=342.2953pt
+* \textheight=244.6939pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count561
+\scratchdimen=\dimen343
+\scratchbox=\box107
+\nofMPsegments=\count562
+\nofMParguments=\count563
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count564
+\MPscratchDim=\dimen344
+\MPnumerator=\count565
+\makeMPintoPDFobject=\count566
+\everyMPtoPDFconversion=\toks52
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 104.
+ (presentazione.out) (presentazione.out)
+\@outlinefile=\write6
+\openout6 = `presentazione.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 104.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 104.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 104.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 104.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 104.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 104.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 104.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
+04.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 1
+04.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 104.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+ibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
+nvironment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
+onths-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
+umbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
+heorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `presentazione.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'presentazione.bbl' found.
+ (presentazione.bbl)
+Package biblatex Info: Reference section=0 on input line 104.
+Package biblatex Info: Reference segment=0 on input line 104.
+ (presentazione.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104
+.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104
+.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 104.
+
+(C:\Users\ottae\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
+erncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+) [1
+
+{C:/Users/ottae/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (presentazio
+ne.toc) [2
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 117.
+
+[3
+
+] [4
+
+]
+<snakeFlower.png, id=267, 364.854pt x 164.907pt>
+File: snakeFlower.png Graphic file (type png)
+<use snakeFlower.png>
+Package pdftex.def Info: snakeFlower.png  used on input line 158.
+(pdftex.def)             Requested size: 171.14764pt x 77.35532pt.
+ [5
+
+ <./snakeFlower.png>]
+<down.png, id=301, 24.09pt x 44.895pt>
+File: down.png Graphic file (type png)
+<use down.png>
+Package pdftex.def Info: down.png  used on input line 176.
+(pdftex.def)             Requested size: 24.94286pt x 46.48418pt.
+<wrong.jpg, id=302, 292.09125pt x 173.64874pt>
+File: wrong.jpg Graphic file (type jpg)
+<use wrong.jpg>
+Package pdftex.def Info: wrong.jpg  used on input line 176.
+(pdftex.def)             Requested size: 239.60567pt x 142.45117pt.
+
+Overfull \vbox (39.84244pt too high) detected at line 176
+ []
+
+[6
+
+ <./down.png> <./wrong.jpg>]
+File: down.png Graphic file (type png)
+<use down.png>
+Package pdftex.def Info: down.png  used on input line 176.
+(pdftex.def)             Requested size: 24.94286pt x 46.48418pt.
+File: wrong.jpg Graphic file (type jpg)
+<use wrong.jpg>
+Package pdftex.def Info: wrong.jpg  used on input line 176.
+(pdftex.def)             Requested size: 239.60567pt x 142.45117pt.
+
+Overfull \vbox (39.84244pt too high) detected at line 176
+ []
+
+[7
+
+] [8
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+[9
+
+] [10
+
+] [11
+
+] [12
+
+]
+<iatbase.png, id=522, 687.441pt x 347.772pt>
+File: iatbase.png Graphic file (type png)
+<use iatbase.png>
+Package pdftex.def Info: iatbase.png  used on input line 325.
+(pdftex.def)             Requested size: 102.68962pt x 51.94597pt.
+ [13
+
+ <./iatbase.png>]
+File: iatbase.png Graphic file (type png)
+<use iatbase.png>
+Package pdftex.def Info: iatbase.png  used on input line 325.
+(pdftex.def)             Requested size: 102.68962pt x 51.94597pt.
+ [14
+
+]
+File: iatbase.png Graphic file (type png)
+<use iatbase.png>
+Package pdftex.def Info: iatbase.png  used on input line 325.
+(pdftex.def)             Requested size: 102.68962pt x 51.94597pt.
+ [15
+
+]
+<cocagood.png, id=607, 940.9554pt x 523.2348pt>
+File: cocagood.png Graphic file (type png)
+<use cocagood.png>
+Package pdftex.def Info: cocagood.png  used on input line 343.
+(pdftex.def)             Requested size: 171.14764pt x 95.1682pt.
+<cocabad.png, id=608, 940.9554pt x 523.2348pt>
+File: cocabad.png Graphic file (type png)
+<use cocabad.png>
+Package pdftex.def Info: cocabad.png  used on input line 343.
+(pdftex.def)             Requested size: 171.14764pt x 95.1682pt.
+ [16
+
+ <./cocagood.png> <./cocabad.png>] [17
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 397--397
+[][][][]
+ []
+
+[18
+
+] [19
+
+] [20
+
+] [21
+
+]
+\g__tikzsymbols_savebox_F_0 g 0 G_10.95_Cat_2_box=\box108
+\g__tikzsymbols_savebox_F_0 g 0 G_10.95_Snowman_2_box=\box109
+\g__tikzsymbols_savebox_F_0 g 0 G_10.95_NiceReapey_2_black!20!white_box=\box110
+
+ [22
+
+]
+<yearsIAT.pdf, id=835, 794.97pt x 614.295pt>
+File: yearsIAT.pdf Graphic file (type pdf)
+<use yearsIAT.pdf>
+Package pdftex.def Info: yearsIAT.pdf  used on input line 452.
+(pdftex.def)             Requested size: 273.83728pt x 211.60393pt.
+
+Overfull \vbox (1.59995pt too high) detected at line 452
+ []
+
+[23
+
+ <./yearsIAT.pdf>] [24
+
+]
+<coca3.jpg, id=911, 451.6875pt x 311.1625pt>
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 490.
+(pdftex.def)             Requested size: 34.23161pt x 23.57832pt.
+<pepsi3.jpg, id=912, 451.6875pt x 328.22626pt>
+File: pepsi3.jpg Graphic file (type jpg)
+<use pepsi3.jpg>
+Package pdftex.def Info: pepsi3.jpg  used on input line 490.
+(pdftex.def)             Requested size: 34.229pt x 24.87132pt.
+ [25
+
+ <./coca3.jpg> <./pepsi3.jpg>]
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 490.
+(pdftex.def)             Requested size: 34.23161pt x 23.57832pt.
+File: pepsi3.jpg Graphic file (type jpg)
+<use pepsi3.jpg>
+Package pdftex.def Info: pepsi3.jpg  used on input line 490.
+(pdftex.def)             Requested size: 34.229pt x 24.87132pt.
+ [26
+
+]
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 543.
+(pdftex.def)             Requested size: 34.23161pt x 23.57832pt.
+ [27
+
+]
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 543.
+(pdftex.def)             Requested size: 34.23161pt x 23.57832pt.
+ [28
+
+]
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 543.
+(pdftex.def)             Requested size: 34.23161pt x 23.57832pt.
+
+[29
+
+]
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 543.
+(pdftex.def)             Requested size: 34.23161pt x 23.57832pt.
+ [30
+
+] [31
+
+]
+Overfull \vbox (6.59529pt too high) detected at line 606
+ []
+
+[32
+
+]
+Overfull \vbox (6.59529pt too high) detected at line 606
+ []
+
+[33
+
+]
+Overfull \vbox (6.59529pt too high) detected at line 606
+ []
+
+[34
+
+]
+<go.png, id=1200, 375.147pt x 225.351pt>
+File: go.png Graphic file (type png)
+<use go.png>
+Package pdftex.def Info: go.png  used on input line 636.
+(pdftex.def)             Requested size: 171.14764pt x 102.80995pt.
+<nogo.png, id=1201, 375.147pt x 225.57pt>
+File: nogo.png Graphic file (type png)
+<use nogo.png>
+Package pdftex.def Info: nogo.png  used on input line 636.
+(pdftex.def)             Requested size: 171.14764pt x 102.90985pt.
+ [35
+
+ <./go.png> <./nogo.png>] [36
+
+] [37
+
+]
+<spf1.png, id=1297, 374.928pt x 232.14pt>
+File: spf1.png Graphic file (type png)
+<use spf1.png>
+Package pdftex.def Info: spf1.png  used on input line 709.
+(pdftex.def)             Requested size: 171.14764pt x 105.96744pt.
+<spf2.png, id=1298, 375.147pt x 232.14pt>
+File: spf2.png Graphic file (type png)
+<use spf2.png>
+Package pdftex.def Info: spf2.png  used on input line 709.
+(pdftex.def)             Requested size: 171.14764pt x 105.90723pt.
+ [38
+
+ <./spf1.png> <./spf2.png>]
+[39
+
+]
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 30.80719pt x 21.21858pt.
+File: pepsi3.jpg Graphic file (type jpg)
+<use pepsi3.jpg>
+Package pdftex.def Info: pepsi3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 29.7793pt x 21.63594pt.
+
+Overfull \vbox (3.50562pt too high) detected at line 802
+ []
+
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 30.80719pt x 21.21858pt.
+
+Overfull \vbox (3.50562pt too high) detected at line 802
+ []
+
+File: pepsi3.jpg Graphic file (type jpg)
+<use pepsi3.jpg>
+Package pdftex.def Info: pepsi3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 28.75296pt x 20.88971pt.
+
+Overfull \vbox (3.50562pt too high) detected at line 802
+ []
+
+[40
+
+]
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 30.80719pt x 21.21858pt.
+File: pepsi3.jpg Graphic file (type jpg)
+<use pepsi3.jpg>
+Package pdftex.def Info: pepsi3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 29.7793pt x 21.63594pt.
+File: cocagood.png Graphic file (type png)
+<use cocagood.png>
+Package pdftex.def Info: cocagood.png  used on input line 802.
+(pdftex.def)             Requested size: 102.68962pt x 57.10092pt.
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 30.80719pt x 21.21858pt.
+<sccokegood.png, id=1474, 940.9554pt x 522.753pt>
+File: sccokegood.png Graphic file (type png)
+<use sccokegood.png>
+Package pdftex.def Info: sccokegood.png  used on input line 802.
+(pdftex.def)             Requested size: 102.68962pt x 57.04834pt.
+File: pepsi3.jpg Graphic file (type jpg)
+<use pepsi3.jpg>
+Package pdftex.def Info: pepsi3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 28.75296pt x 20.88971pt.
+<scpepsigood.png, id=1487, 940.9554pt x 522.753pt>
+File: scpepsigood.png Graphic file (type png)
+<use scpepsigood.png>
+Package pdftex.def Info: scpepsigood.png  used on input line 802.
+(pdftex.def)             Requested size: 102.68962pt x 57.04834pt.
+ [41
+
+ <./sccokegood.png> <./scpepsigood.png>]
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 30.80719pt x 21.21858pt.
+File: pepsi3.jpg Graphic file (type jpg)
+<use pepsi3.jpg>
+Package pdftex.def Info: pepsi3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 29.7793pt x 21.63594pt.
+File: cocagood.png Graphic file (type png)
+<use cocagood.png>
+Package pdftex.def Info: cocagood.png  used on input line 802.
+(pdftex.def)             Requested size: 102.68962pt x 57.10092pt.
+File: coca3.jpg Graphic file (type jpg)
+<use coca3.jpg>
+Package pdftex.def Info: coca3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 30.80719pt x 21.21858pt.
+File: sccokegood.png Graphic file (type png)
+<use sccokegood.png>
+Package pdftex.def Info: sccokegood.png  used on input line 802.
+(pdftex.def)             Requested size: 102.68962pt x 57.04834pt.
+File: pepsi3.jpg Graphic file (type jpg)
+<use pepsi3.jpg>
+Package pdftex.def Info: pepsi3.jpg  used on input line 802.
+(pdftex.def)             Requested size: 28.75296pt x 20.88971pt.
+File: scpepsigood.png Graphic file (type png)
+<use scpepsigood.png>
+Package pdftex.def Info: scpepsigood.png  used on input line 802.
+(pdftex.def)             Requested size: 102.68962pt x 57.04834pt.
+ [42
+
+]
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+\g__tikzsymbols_savebox_F_0 g 0 G_6_Cat_2_box=\box111
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+\g__tikzsymbols_savebox_F_0 g 0 G_6_Snowman_2_box=\box112
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+\g__tikzsymbols_savebox_F_0 g 0 G_6_NiceReapey_2_black!20!white_box=\box113
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+[43
+
+]
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+[44
+
+]
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.18443pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 L| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.36153pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 F| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.9657pt too wide) in paragraph at lines 899--899
+[]|\OT1/cmss/m/n/6 G| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (13.91443pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (4.43732pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.54944pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+
+Overfull \hbox (8.79314pt too wide) in paragraph at lines 899--899
+[]|[]| 
+ []
+
+[45
+
+] [46
+
+]
+<supergirl.png, id=1756, 191.30295pt x 309.14555pt>
+File: supergirl.png Graphic file (type png)
+<use supergirl.png>
+Package pdftex.def Info: supergirl.png  used on input line 925.
+(pdftex.def)             Requested size: 8.2492pt x 13.33333pt.
+File: supergirl.png Graphic file (type png)
+<use supergirl.png>
+Package pdftex.def Info: supergirl.png  used on input line 925.
+(pdftex.def)             Requested size: 8.2492pt x 13.33333pt.
+File: supergirl.png Graphic file (type png)
+<use supergirl.png>
+Package pdftex.def Info: supergirl.png  used on input line 925.
+(pdftex.def)             Requested size: 8.2492pt x 13.33333pt.
+ [47
+
+ <./supergirl.png>]
+<baseGLM.pdf, id=1787, 794.97pt x 614.295pt>
+File: baseGLM.pdf Graphic file (type pdf)
+<use baseGLM.pdf>
+Package pdftex.def Info: baseGLM.pdf  used on input line 957.
+(pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
+<linkGLM.pdf, id=1788, 794.97pt x 614.295pt>
+File: linkGLM.pdf Graphic file (type pdf)
+<use linkGLM.pdf>
+Package pdftex.def Info: linkGLM.pdf  used on input line 957.
+(pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
+ [48
+
+ <./baseGLM.pdf>]
+File: baseGLM.pdf Graphic file (type pdf)
+<use baseGLM.pdf>
+Package pdftex.def Info: baseGLM.pdf  used on input line 957.
+(pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
+File: linkGLM.pdf Graphic file (type pdf)
+<use linkGLM.pdf>
+Package pdftex.def Info: linkGLM.pdf  used on input line 957.
+(pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
+ [49
+
+ <./linkGLM.pdf>]
+\spot@box@i=\box114
+\spot@box@ii=\box115
+\spot@box@iii=\box116
+\spot@box@iv=\box117
+\spot@box@v=\box118
+\spot@box@vi=\box119
+
+[50
+
+] [51
+
+]
+\spot@box@vii=\box120
+\spot@box@viii=\box121
+ [52
+
+] [53
+
+] [54
+
+]
+<white.png, id=2027, 357.86711pt x 191.55904pt>
+File: white.png Graphic file (type png)
+<use white.png>
+Package pdftex.def Info: white.png  used on input line 1167.
+(pdftex.def)             Requested size: 171.14764pt x 91.61115pt.
+<black.png, id=2028, 357.86711pt x 191.55904pt>
+File: black.png Graphic file (type png)
+<use black.png>
+Package pdftex.def Info: black.png  used on input line 1167.
+(pdftex.def)             Requested size: 171.14764pt x 91.61115pt.
+ [55
+
+ <./white.png> <./black.png>]
+<raceParaccuracy.pdf, id=2061, 794.97pt x 614.295pt>
+File: raceParaccuracy.pdf Graphic file (type pdf)
+<use raceParaccuracy.pdf>
+Package pdftex.def Info: raceParaccuracy.pdf  used on input line 1212.
+(pdftex.def)             Requested size: 136.91862pt x 105.79727pt.
+<racePartime.pdf, id=2062, 794.97pt x 614.295pt>
+File: racePartime.pdf Graphic file (type pdf)
+<use racePartime.pdf>
+Package pdftex.def Info: racePartime.pdf  used on input line 1212.
+(pdftex.def)             Requested size: 136.91862pt x 105.79727pt.
+ [56
+
+ <./raceParaccuracy.pdf> <./racePartime.pdf>]
+File: raceParaccuracy.pdf Graphic file (type pdf)
+<use raceParaccuracy.pdf>
+Package pdftex.def Info: raceParaccuracy.pdf  used on input line 1212.
+(pdftex.def)             Requested size: 136.91862pt x 105.79727pt.
+File: racePartime.pdf Graphic file (type pdf)
+<use racePartime.pdf>
+Package pdftex.def Info: racePartime.pdf  used on input line 1212.
+(pdftex.def)             Requested size: 136.91862pt x 105.79727pt.
+ [57
+
+]
+File: raceParaccuracy.pdf Graphic file (type pdf)
+<use raceParaccuracy.pdf>
+Package pdftex.def Info: raceParaccuracy.pdf  used on input line 1212.
+(pdftex.def)             Requested size: 136.91862pt x 105.79727pt.
+File: racePartime.pdf Graphic file (type pdf)
+<use racePartime.pdf>
+Package pdftex.def Info: racePartime.pdf  used on input line 1212.
+(pdftex.def)             Requested size: 136.91862pt x 105.79727pt.
+ [58
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 1244.
+
+
+<RaceHigh.pdf, id=2164, 794.97pt x 614.295pt>
+File: RaceHigh.pdf Graphic file (type pdf)
+<use RaceHigh.pdf>
+Package pdftex.def Info: RaceHigh.pdf  used on input line 1244.
+(pdftex.def)             Requested size: 188.26346pt x 145.47476pt.
+<RaceLow.pdf, id=2165, 794.97pt x 614.295pt>
+File: RaceLow.pdf Graphic file (type pdf)
+<use RaceLow.pdf>
+Package pdftex.def Info: RaceLow.pdf  used on input line 1244.
+(pdftex.def)             Requested size: 188.26346pt x 145.47476pt.
+
+Overfull \hbox (12.33156pt too wide) detected at line 1244
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+<wm1.jpg, id=2166, 92.5056pt x 69.3792pt>
+File: wm1.jpg Graphic file (type jpg)
+<use wm1.jpg>
+Package pdftex.def Info: wm1.jpg  used on input line 1244.
+(pdftex.def)             Requested size: 23.27724pt x 17.45802pt.
+<bf56.jpg, id=2167, 92.5056pt x 69.3792pt>
+File: bf56.jpg Graphic file (type jpg)
+<use bf56.jpg>
+Package pdftex.def Info: bf56.jpg  used on input line 1244.
+(pdftex.def)             Requested size: 23.27724pt x 17.45802pt.
+[59
+
+ <./RaceHigh.pdf> <./RaceLow.pdf> <./wm1.jpg> <./bf56.jpg>]
+<raceIntensityWords.pdf, id=2208, 794.97pt x 614.295pt>
+File: raceIntensityWords.pdf Graphic file (type pdf)
+<use raceIntensityWords.pdf>
+Package pdftex.def Info: raceIntensityWords.pdf  used on input line 1269.
+(pdftex.def)             Requested size: 171.14764pt x 132.24893pt.
+<raceIntensityPics.pdf, id=2209, 794.97pt x 614.295pt>
+File: raceIntensityPics.pdf Graphic file (type pdf)
+<use raceIntensityPics.pdf>
+Package pdftex.def Info: raceIntensityPics.pdf  used on input line 1269.
+(pdftex.def)             Requested size: 171.14764pt x 132.24893pt.
+ [60
+
+ <./raceIntensityWords.pdf> <./raceIntensityPics.pdf>] [61
+
+]
+\g__tikzsymbols_savebox_F_0.21176 0.44707 0.34903 rg 0.21176 0.44707 0.34903 RG
+_12_Sadey_1_none_box=\box122
+<emoji.png, id=2303, 632.3625pt x 660.4675pt>
+File: emoji.png Graphic file (type png)
+<use emoji.png>
+Package pdftex.def Info: emoji.png  used on input line 1302.
+(pdftex.def)             Requested size: 23.29283pt x 24.33327pt.
+ [62
+
+ <./emoji.png>]
+File: emoji.png Graphic file (type png)
+<use emoji.png>
+Package pdftex.def Info: emoji.png  used on input line 1302.
+(pdftex.def)             Requested size: 23.29283pt x 24.33327pt.
+ [63
+
+]
+Overfull \hbox (1.33798pt too wide) in paragraph at lines 1335--1335
+[]|\OT1/cmtt/m/n/10 clean[]sciat()| 
+ []
+
+
+Overfull \hbox (1.33798pt too wide) in paragraph at lines 1335--1335
+[]|\OT1/cmtt/m/n/10 compute[]iat()| 
+ []
+
+
+Overfull \hbox (11.83789pt too wide) in paragraph at lines 1335--1335
+[]|\OT1/cmtt/m/n/10 compute[]sciat()| 
+ []
+
+
+Overfull \hbox (6.58794pt too wide) in paragraph at lines 1335--1335
+[]|\OT1/cmtt/m/n/10 multi[]dsciat()| 
+ []
+
+
+Overfull \hbox (6.58794pt too wide) in paragraph at lines 1335--1335
+[]|\OT1/cmtt/m/n/10 multi[]dscore()| 
+ []
+
+[64
+
+]
+<AppLogo.png, id=2395, 337.03326pt x 355.5684pt>
+File: AppLogo.png Graphic file (type png)
+<use AppLogo.png>
+Package pdftex.def Info: AppLogo.png  used on input line 1347.
+(pdftex.def)             Requested size: 136.91603pt x 144.44388pt.
+ [65
+
+ <./AppLogo.png>] [66
+
+]
+\tf@nav=\write7
+\openout7 = `presentazione.nav'.
+
+\tf@toc=\write8
+\openout8 = `presentazione.toc'.
+
+\tf@snm=\write9
+\openout9 = `presentazione.snm'.
+
+ (presentazione.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `presentazione.out' has not changed.
+(rerunfilecheck)             Checksum: BAE769CAC24D9411892642AC7C37A7A9;2116.
+Package logreq Info: Writing requests to 'presentazione.run.xml'.
+\openout1 = `presentazione.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 37013 strings out of 474586
+ 777413 string characters out of 5745680
+ 2101558 words of memory out of 5000000
+ 58384 multiletter control sequences out of 15000+600000
+ 577270 words of font info for 104 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,19n,123p,1140b,1310s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmcsc10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmex10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ottae/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/ottae/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ottae/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ottae/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users
+/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+<C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ss8.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmss9.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmssbx10.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/ottae/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/ottae/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/ottae/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/otta
+e/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb><C:/Users/ottae/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb>
+Output written on presentazione.pdf (66 pages, 9554020 bytes).
+PDF statistics:
+ 2574 PDF objects out of 2984 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 1289 words of extra memory for PDF output out of 10000 (max. 10000000)
+

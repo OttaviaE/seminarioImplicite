@@ -1,0 +1,26 @@
+\frametitle{Gruppo 4}
+IC-C, Scheda
+	\begin{footnotesize}
+	\begin{Verbatim}[commandchars=\\\{\}]
+<expt>
+/ onexptbegin = [
+values.conditionOrder = \textcolor{red}{"ic-c"}
+]
+/ preinstructions = (iatintro)
+\textcolor{red}{/ groups = (4 of 4)}
+/ blocks = [
+	1=IAT1; 2=targetcompatiblepractice;
+	3=IAT2; 4=attributepractice;
+	5=IAT3; 6=compatibletest1;
+	7=IAT_pause; 8=compatibletest2;
+	9=IAT4; 10=targetincompatiblepractice;
+	11=IAT5;12=incompatibletest1;
+	13=IAT_pause; 14=incompatibletest2; 		
+	\textcolor{blue}{15=demo_istruzioni;}
+	\textcolor{blue}{16=demografica;} \textcolor{blue}{17=simpatia;}
+	18=summary; 19= end;
+]
+</expt>			
+	\end{Verbatim}
+\end{footnotesize}
+	

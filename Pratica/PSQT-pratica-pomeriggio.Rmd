@@ -1,0 +1,837 @@
+---
+title: "Misurazione Implicita in Psicologia"
+subtitle: "Analizzare i dati IAT con l'approccio classico"
+author: | 
+  | Ottavia M. Epifania
+  | \texttt{ottavia.epifania@unipd.it}
+date: '19 Luglio 2024, Padova'
+institute: |
+  | Master di II Livello
+  | Psicologia quantitativa. Misurazione, valutazione e analisi di variabili psicosociali 
+output: 
+  beamer_presentation: 
+    theme: CambridgeUS
+    fonttheme: serif
+    highlight: haddock
+header-includes:
+    - \AtBeginDocument{\title[Analisi dei dati]{Misurazione Implicita in Psicologia}}
+    - \AtBeginDocument{\date[PSQT]{19 Luglio 2024, Padova}}
+    - \AtBeginDocument{\author[O.M.E., Ph.D.]{Ottavia M. Epifania, Ph.D}}
+    - \AtBeginDocument{\institute[]{Master di II Livello \newline Psicologia quantitativa. Misurazione, valutazione e analisi di variabili}}
+    - \usepackage{graphicx} 
+    - \usepackage{setspace}
+    - \usepackage{tabularx}
+    - \usepackage{tikzsymbols}
+    - \usepackage{tikz}
+    - \usepackage{spot}
+    - \usepackage{tabularx}
+    - \usepackage[absolute,overlay]{textpos}
+    - \usepackage{booktabs}
+    - \newcommand\Factor{1.2}
+    - \setbeamerfont{subtitle}{size=\large, series=\bfseries}
+    - \definecolor{template}{RGB}{54, 114, 89}
+    - \setbeamercolor{frametitle}{fg=template, bg=white}
+    - \setbeamercolor{section in head/foot}{bg=template}
+    - \setbeamercolor{subsection in head/foot}{bg=template!20, fg=template}
+    - \setbeamercolor{author in head/foot}{bg=template}
+    - \setbeamercolor{date in head/foot}{fg=template}
+    - \setbeamercolor{title in head/foot}{fg=template}
+    - \setbeamertemplate{frametitle}[default][center]
+    - \setbeamercolor{sectiontitle}{fg=temmplate}
+    - \setbeamercolor{title}{fg=template}
+    - \setbeamercolor*{item}{fg=template}
+    - \setbeamertemplate{frametitle}{\color{template}\bfseries\scshape\insertframetitle\par\hrulefill}
+    - \setbeamercolor{section name}{fg=white}
+    - \AtBeginSection[]
+          {
+             \begin{frame}
+             \tableofcontents[currentsection]
+              \end{frame}
+          } 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      eval = TRUE, 
+                      message = FALSE, 
+                      prompt = FALSE, 
+                      comment="", 
+                      tidy=TRUE, 
+                      warning = FALSE, 
+                      fig.align = "center", 
+                      out.width = "70%", 
+                      tidy="styler")
+
+library(knitr)
+hook_output = knit_hooks$get('output')
+knit_hooks$set(output = function(x, options) {
+  # this hook is used only when the linewidth option is not NULL
+  if (!is.null(n <- options$myline)) {
+    x = xfun::split_lines(x)
+    # any lines wider than n should be wrapped
+    if (any(nchar(x) > n)) x = strwrap(x, width = n)
+    #x = paste(x, collapse = '\n')
+      x = c(x, "....\n")
+  } else if (!is.null(n <- options$out.lines)) {
+x <- xfun::split_lines(x)
+if (length(x) > n) {
+# truncate the output
+x <- c(head(x, n), "....\n")
+}
+x <- paste(x, collapse = "\n")
+  } else if (!is.null(n <- options$myline) & !is.null(n <- options$out.lines)) {
+    x  = xfun::split_lines(x)
+    # any lines wider than n should be wrapped
+    if (any(nchar(x) > n)) x = strwrap(x, width = n)
+ #   x = paste(x, collapse = '\n')
+    x = c(x, "....\n")
+    if (length(x) > n) {
+# truncate the output
+x <- c(head(x, n), "....\n")
+}
+}
+  hook_output(x, options)
+})
+library(knitr)
+library(xtable)
+```
+
+## Contenuti
+
+\tableofcontents
+
+## Cosa usiamo
+
+-   download \href{https://cran.r-project.org/bin/windows/base/}{\includegraphics[width=0.04\linewidth]{R.png}} e seguire le istruzioni di installazione
+
+-   download \href{https://www.rstudio.com/products/rstudio/download/}{\includegraphics[width=0.10\linewidth]{Rstudio.png}} e seguire le istruzioni di installazione
+
+-   \href{http://fisppa.psy.unipd.it/DscoreApp/}{\includegraphics[width=0.10\linewidth]{AppLogo.png}} per analizzare rapidamente e facilmente i dati (non serve installazione)
+
+-   Il pacchetto \href{https://cran.r-project.org/web/packages/implicitMeasures/index.html}{\texttt{implicitMeasures}} di `R`
+
+## Disclaimer
+
+Le illustrazioni seguenti assumono che sia stato usato Inquisit per raccogliere i dati
+
+I dati che verranno usati per gli esempi sono disponibili   \href{https://drive.google.com/drive/folders/1vZWK3UrSDr2B527dHfQKHeDucwwKxC2N?usp=sharing}{\textcolor{blue}{qui}}
+
+In entrambi i casi, si tratta dei dati raccolti su 142 partecipanti da uno IAT sul pregiudizio razziale
+
+Sono state raccolte anche misure esplicite (i.e., orientamento politico e atteggiamento verso le persone Bianche e di colore)
+
+Sia la app sia il pacchetto possono essere usati con data set ricavati da altri software
+
+## D score 
+
+\vskip0pt plus 1filll
+Greenwald et al. (2003)
+	
+\vspace{5mm}
+\begin{columns}
+\begin{column}{.50\linewidth}
+			$$D_{\mathrm{B6,B3}} = \frac{M_{\mathrm{B6}} - M_{\mathrm{B4}}}{sd_{\mathrm{B6, B3}}}$$
+\end{column}
+\begin{column}{.50\linewidth}
+			$$D_{\mathrm{B7,B4}} = \frac{M_{\mathrm{B7}} - M_{\mathrm{B4}}}{sd_{\mathrm{B7, B4}}}$$
+\end{column}
+\end{columns}
+	
+\vspace{5mm}
+\begin{equation*}
+		D = \frac{D_{\mathrm{B6,B3}} + D_{\mathrm{B7,B4}}}{2}
+\end{equation*}
+	
+\vspace{5mm}
+	Error responses? Fast responses?
+	
+\vskip0pt plus 1filll
+	
+\color{template} \rule{0.30 \linewidth}{0.5pt} \normalcolor
+
+
+\footnotesize 
+
+Greenwald, A. G., Nosek, B. A., \& Banaji, M. R.
+		(2003). Understanding and using the implicit association test: I. An improved scoring algorithm. \emph{Journal
+		of Personality and Social Psychology, 85}(2), 197–
+		216. https://doi.org/10.1037/0022-3514.85.2.197 
+
+## Gli algoritmi 
+
+\scalebox{.95}{
+
+			\centering
+			\begin{tabular}{p{2cm} p{6cm}p{3cm}}
+				\hline
+				\emph{D} score & Error inflation & Eliminazione trial $< 400$ms\\\hline
+				\emph{D1} & Built-in correction & No \\
+				\emph{D2} & Built-in correction & Si \\
+				\emph{D3} & Media (risposte corrette) + 2\emph{sd} & No\\
+				\emph{D4} & Media (risposte corrette) + 600 \emph{ms} & No \\
+				\emph{D5} & Media (risposte corrette) + 2\emph{sd} & Si\\
+				\emph{D6} & Media (risposte corrette) + 600 \emph{ms} & Si \\\hline
+			\end{tabular}
+
+}
+ 
+
+
+# DScoreApp
+
+## 
+
+DscoreApp è la soluzione migliore per calcolare i punteggi IAT in modo rapido e semplice
+
+```{=tex}
+\begin{exampleblock}{Pro}
+
+- Molto facile da usare
+
+- Documentazione molto chiara e manintainer disponibile ad aiutare
+
+- Si possono ispezionare i risultati durante il loro stesso calcolo
+
+- Si può familiarizzare con la app attraverso un data set "giocattolo" interno alla app stessa
+
+\end{exampleblock}
+```
+```{=tex}
+\begin{alertblock}{Contro}
+
+- I dati vanno preparati con software esterni (e.g., Excel)
+
+- Si può calcolare solo un \emph{D} score alla volta
+
+- Se si vuole indagare la relazione tra misure implicite ed esplicite bisogna unire manualmente i data set su Excel (o altro) 
+\end{alertblock}
+```
+
+## DScoreApp
+
+\href{https://fisppa.psy.unipd.it/DscoreApp/}{\textcolor{blue}{DScoreApp}}
+
+
+Il data set deve essere salvato in `csv` e deve essere organizzato in 4 colonne, come segue:
+
+-   **`participant`**: Contiene gli ID dei partecipanti
+
+-  **`block`**: Contiene le etichette che identificano i blocchi dello IAT (pratica e test compatibile, pratica e test incompatibile)
+
+-   **`latency`**: Contiene i tempi di risposta
+
+-   **`correct`**: Contiene le risposte di accuratezza
+
+## Il data set
+
+Da Inquisit solitamente si ottiene un file \texttt{.dat}:
+
+```{r echo = FALSE, out.width="100%"}
+knitr::include_graphics("datfile.png")
+```
+
+Si può copia \& incollare in un file Excel. Se non si ha la virgola settata di default come separatore di colonne: 
+
+\vspace{3mm}
+
+> Dati $\rightarrow$ Testo in colonne $\rightarrow$ Delimitato $\rightarrow$ virgola
+
+Per l'esercitazione su shiny, usate \href{https://drive.google.com/file/d/1tAvCSgG9ZtLUPgSgoJPyw7jTsw4lZeKF/view?usp=sharing}{\textcolor{blue}{questo}} data set
+
+## 
+
+Si possono cancellare le colonne che non servono
+
+-   **`date`**
+
+-   **`time`**
+
+-   **`build`**
+
+La prima colonna che ci interessa è `blockcode`. Usando la funzione filtro si possono vedere tutti i valori contenuti nella colonna 
+
+## `blockcode`
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("blockcode.png")
+```
+
+## `blockcode`
+
+I blocchi che servono sono i blocchi "critici" dello IAT
+
+-   \textcolor<2->{blue}{\texttt{PracticeWhitegood}}
+
+-   \textcolor<2->{blue}{\texttt{TestWhitegood}}
+
+-   \textcolor<3->{red}{\texttt{PracticeWhitebad}}
+
+-   \textcolor<3->{red}{\texttt{TestWhitebad}}
+
+\vspace{5mm}
+
+```{=tex}
+\begin{columns}
+    \begin{column}{.50\linewidth}
+    \onslide<2-> \textcolor{blue}{Condizione White-Good/Black-Bad (MappingA)} 
+    \end{column}
+\begin{column}{.50\linewidth}
+    \onslide<3-> \textcolor{red}{Condizione Black-Good/White-Bad (MappingB)}    
+\end{column}
+\end{columns}
+```
+
+\vspace{3mm}
+
+Si selezionano i blocchi di interesse....Eliminando tutti gli altri!
+
+## 
+
+Dal filtro sulla colonna `blockcode`, si selezionano tutti i blocchi
+\underline{\textbf{tranne}} \texttt{PracticeWhitegood}, \texttt{TestWhitegood}, \texttt{PracticeWhitebad}, \texttt{TestWhitebad}:
+
+```{r echo = FALSE}
+knitr::include_graphics("filter0.png")
+```
+
+## `blockcode`
+
+Evidenziare e cancellare tutte le righe che rimangono **dopo** l'applicazione del filtro
+
+Vedrete sparire tutte le righe... Niente panico!
+
+
+Togliete il filtro dalla colonna `blockcode` 
+
+## `trialcode`
+
+
+Dopo avere selezionato i blocchi che ci interessano, ci potrebbero ancora essere dei trial che sono parte dell'esperimento ma che non servono per il calcolo del \emph{D} score (e.g., reminders, instructions)
+
+Mettete un filtro sulla colonna `trialcode` e selezionate tutti i trial non rilevanti:
+
+```{r echo = FALSE, out.width="30%", fig.align='center'}
+knitr::include_graphics("filter1.png")
+```
+
+## `trialcode`
+
+Selezionate tutte le righe che sono rimaste **dopo** che avete applicato il filtro
+
+Cancellatele
+
+(Niente panico)
+
+Togliete il filtro dalla colonnna `trialcode` 
+
+## Ultimi ritocchi al dataset 
+
+Togliete ogni filtro rimasto dalle colonne
+
+Togliete tutte le colonne non necessarie (`blocknum`, `trialnum`, `trialcode`, `response`, `stimulusitem1`)
+
+Rinominate tutte le colonne rimaste a seconda delle istruzioni della app: 
+
+-   **`subject`** $\rightarrow$ **`participant`**
+
+-   **`blockcode`** $\rightarrow$ **`block`**
+
+-   **`latency`** $\rightarrow$ **`latency`**
+
+-   **`correct`** $\rightarrow$ **`correct`**
+
+## Il look finale
+
+```{r fig.align='center', echo=FALSE}
+knitr::include_graphics("look.png")
+```
+
+## 
+
+Il file \underline{\textbf{deve}} essere salvato in `.csv` con la virgola settata come separatore di colonna
+
+La virgola come separatore di colonna è un dettaglio estremamente importante perché altrimenti la app non funziona ma soprattutto non vi dirà perché non funziona 
+
+## Importare il data set
+
+```{r echo=F, out.width="80%"}
+include_graphics("app1.png")
+```
+
+Cercate il file nel vostro computer e selezionatelo. Verrò caricato automaticamente
+
+
+
+## Preparate il dataset \small (sì, di nuovo)
+
+```{r echo=F, fig.align="center", out.width="30%"}
+include_graphics("app2.png")
+```
+
+Per cambiare l'ordine con cui viene calcolato il *D* score (i.e., $M(A) - M(B)$ vs. $M(B) - M(A)$) $\rightarrow$ selezionate le etichette corrispondenti all'ordine che volete seguire
+
+Una volta selezionate le etichette desiderate $\rightarrow$ click su "Prepare data" e aspettate che appaia il messaggio "Data are ready" 
+
+## Selezionate il *D* score
+
+Selezionate il *D* score che volete calcolare dal drop down menu, click su "Calculate & Update"... ed è fatta! I *D* score dei partecipanti appariranno a breve nel "Results panel"
+
+```{r echo=F, fig.align='center', out.width="40%"}
+include_graphics("app3.png")
+```
+
+## Pannello dei risultati
+
+```{r echo=F, out.width="70%"}
+include_graphics("app4.png")
+```
+
+## Divertitevi con le rappresentazioni grafiche e le impostazioni
+
+```{r echo=F}
+include_graphics("app5.png")
+```
+
+## Download
+
+Una volta finito $\rightarrow$ Potete scaricare i risultati in un file `.csv` (Il file ha la virgola come separatore di colonna)
+
+Il nome del file contiene l'etichetta dell'ultimo *D* score calcolato 
+
+Ad esempio, se *D3* è l'ultimo algoritmo che è stato calcolato, il nome del file sarà: `ShinyAPPDscore3.csv`
+
+# `implicitMeasures`
+
+## `implicitMeasures`
+
+
+```{=tex}
+\begin{exampleblock}{Pro}
+
+- Molto facile da usare (se sapete usare R =))
+
+- Ben documentato e la maintainer è sempre disponibile
+
+- Si possono calcolare diversi \emph{D} scores insieme
+
+- Calcola il \emph{D} score anche per il SC-IAT
+
+- Il calcolo del \emph{D} score ed eventuali altre analisi avvengono tutte nello stesso posto
+
+\end{exampleblock}
+```
+```{=tex}
+\begin{alertblock}{Contro}
+
+- Richiede una medio-buona conoscenza di \texttt{R} 
+
+\end{alertblock}
+```
+
+## Install & Upload
+
+Installare il pacchetto: 
+
+```{r eval=FALSE}
+install.packages("implicitMeasures")
+```
+
+Caricare il pacchetto:
+
+```{r}
+library(implicitMeasures)
+```
+
+Siete pronti/e
+
+## Importare il data set
+
+Bisogna importare il file `.dat` ottenuto da Inquisit (il file è disponibile \href{https://drive.google.com/file/d/11mdppjfevoen5S7B9alsvPdsYnk1VnOz/view?usp=sharing}{\textcolor{blue}{qui}}):
+
+\scriptsize
+
+```{r results='markup', myline = 70, out.lines= 5}
+data = read.table("IATdata.dat", header=TRUE, sep = "\t")
+head(data)
+```
+## Check dei partecipanti
+
+\footnotesize
+
+```{r out.lines=15}
+# check dei partecipanti ----- 
+table(data$subject)
+```
+
+##
+
+Il partecipante 9999999 è un partecipante "finto" e va eliminato dal data set 
+
+```{r}
+data = data[!data$subject %in% 9999999, ]
+```
+
+
+A questo punto si hanno 142 soggetti
+
+Pr verificarlo: 
+
+```{r}
+length(unique(data$subject))
+```
+
+
+## `blockcode`
+
+\scriptsize
+
+```{r results='markup', myline = 75}
+table(data$blockcode)
+```
+
+Bisogna togliere un sacco di cose...
+
+## `trialcode`
+
+\scriptsize
+
+```{r results='markup', myline = 80}
+table(data$trialcode)
+```
+
+## Preparare il data set
+
+\footnotesize
+
+```{r}
+
+data_clean = clean_iat(
+  data,               # nome del data set
+  sbj_id = "subject", # colonna con gli ID dei soggetti
+  block_id = "blockcode", # Colonna con le etichette dei blocchi
+  mapA_practice = "PracticeWhitegood", 
+  mapA_test = "TestWhitegood",
+  mapB_practice = "PracticeWhitebad",
+  mapB_test = "TestWhitebad",
+  latency_id = "latency",   # colonna delle latenze
+  accuracy_id = "correct",  # colonna delle accuratezze
+  trial_id = "trialcode",   # colonna con le etichette dei trial
+  trial_eliminate = c("reminder", "reminder1"), # trial da eliminare
+  demo_id = "blockcode",    # colonna con le etichette dei blocchi
+  trial_demo = "demografica" # etichette dei trial demografica
+)
+
+```
+
+## 
+
+Cosa contiene `data_clean`?
+
+\footnotesize
+
+```{r}
+names(data_clean)
+```
+
+\normalsize
+
+-   ``r names(data_clean)[1]``: il data set su cui viene calcolato il *D* (con classe ``r class(data_clean[[1]])``)
+
+-   ``r names(data_clean)[2]``: I trial che sono stati scartati
+
+-   ``r names(data_clean)[3]``: Il data set che contiene le informazioni socio-demografiche
+
+\pause
+
+Se esportate l'oggetto ``r names(data_clean)[1]`` in `.csv`, lo potete usare in DScoreApp!
+
+```{r eval=FALSE}
+write.table(data_clean$data_keep, "cleanIAT.csv", 
+            sep = ",",       row.names = FALSE)
+```
+
+## Calcolare il *D* score
+
+```{r}
+iat = data_clean$data_keep # selezionare il data set pulito
+```
+
+usando la funzione `compute_iat()` e specificando l'algoritmo desiderato:
+
+```{r}
+d3 = compute_iat(iat, # il data set pulito 
+                 Dscore = "d3") # l'algoritmo desidearto
+```
+
+\small
+
+```{r}
+head(d3[, 1:5]) # prime 5 colonne
+```
+
+## 
+
+\footnotesize
+
+```{r eval = FALSE}
+head(d3[, 6:10]) # colonna da 6 a 10
+```
+
+```{r echo = FALSE}
+head(d3[, 6:7])
+head(d3[, 8:10])
+
+```
+
+
+## 
+
+\footnotesize
+
+```{r eval = FALSE}
+head(d3[, 11:15]) # colonna da 11 a 15
+```
+
+
+```{r echo = FALSE}
+head(d3[, 11:13]) 
+head(d3[, 14:15]) 
+
+```
+
+
+## 
+
+\footnotesize
+
+
+```{r, eval=FALSE} 
+head(d3[, 16:21]) # colonna da 16 a 21
+```
+
+
+```{r echo = FALSE}
+head(d3[, 16:19])
+head(d3[, 20:21]) # colonna 20 e 21
+```
+
+
+
+
+
+## 
+
+\footnotesize
+
+```{r}
+head(d3[, 22:23]) # colonna 22 e 23
+```
+
+## Statistiche descrittive
+
+```{r results='asis'}
+print(descript_d(d3, latex = TRUE), comment = FALSE)
+```
+
+
+
+## Distribuzioni
+
+::: columns
+
+:::: column
+```{r out.width="100%"}
+d_density(d3, 
+          graph = "violin")
+```
+:::: 
+
+:::: column
+```{r out.width="100%"}
+d_density(d3, 
+          graph = "density")
+```
+::::
+
+::: 
+
+
+
+
+## Punti
+
+
+::: columns
+
+:::: column
+\small 
+
+```{r out.width="100%"}
+d_point(d3, x_values = FALSE)
+```
+:::: 
+
+:::: column
+\small 
+```{r out.width="100%"}
+d_point(d3, x_values = FALSE, 
+  order_sbj = "D-increasing")
+```
+::::
+
+::: 
+
+
+## Diversi algoritmi allo stesso tempo 
+
+\small
+
+```{r out.width="100%"}
+dscores = multi_dscore(iat,  # data set pulito
+                    ds = "error-inflation") # quali algoritmi
+
+```
+
+Attenzione!
+
+```{r}
+names(dscores)
+```
+
+## 
+
+\small
+
+```{r}
+head(dscores$dscores)
+```
+
+## 
+
+\small
+
+```{r out.width="70%"}
+dscores$graph
+```
+
+
+## Ci siamo dimenticati di `r names(data_clean)[3]`...?
+
+\footnotesize
+
+```{r out.lines=13, myline = 60}
+demo_raw = data_clean[[3]] # data set con le info. demografiche
+str(demo_raw)
+```
+
+## 
+
+Selezioniamo solo le colonne che servono:
+
+```{r}
+demo_raw = demo_raw[, c("participant", "trialcode",
+                        "response")]
+str(demo_raw)
+```
+
+## "Giriamo" il data set
+
+In modo che ogni soggetto sia su una riga singola:
+
+```{r out.lines=8}
+demo <- reshape(demo_raw, 
+                timevar = "trialcode", 
+                idvar = "participant", 
+                 direction = "wide")
+str(demo)
+```
+
+
+
+## Sistemiamo il dataset
+
+\small
+
+```{r out.lines=8}
+colnames(demo) <- gsub("response.", '', colnames(demo))
+demo[,  c(3, 6:7)] <- apply(demo[,  c(3, 6:7)], 2, as.integer)
+str(demo)
+```
+
+## Qualche info 
+
+- ``r colnames(demo)[1]``: ID dei partecipanti
+- ``r colnames(demo)[2]``: Sesso dei partecipanti
+- ``r colnames(demo)[3]``: Età
+- ``r colnames(demo)[4]``: Occupazione (`r unique(demo$occupazio)`)
+- ``r colnames(demo)[5]``: Istruzione (`r unique(demo$edu)`)
+- ``r colnames(demo)[6]``: Atteggiamento verso le persone Bianche/di colore (1 = *Preferisco molto le persone bianche rispetto alle persone di colore*, 6=*Preferisco molto le persone nere rispetto alle persone bianche*)
+- ``r colnames(demo)[7]``: Orientamento politico (1 - *Left wing orientation*, 6 -*Right wing orientation*)
+
+
+## Unire  `demo` with `d3`
+
+\footnotesize
+
+```{r}
+d3complete = merge(d3, # data set con i D score 
+              demo, # data set con le info. demografiche
+              by = "participant") # id della variabile per unire
+str(d3complete[17:29])
+```
+
+## Calcolo delle correlazioni
+
+\small
+
+```{r results='asis'}
+correlazioni <- data.frame(cor(d3complete[, 
+                            c("dscore_d3", "pol1", "pol2")]))
+correlazioni <- round(correlazioni, 2)
+correlazioni[upper.tri(correlazioni, diag = TRUE)] <- ""
+```
+
+\normalsize
+
+Results are in Table \ref{tab:corr}:
+
+```{r results='asis', echo=FALSE}
+print(xtable(correlazioni, 
+        caption = "Race IAT correlations", 
+        label = "tab:corr"), 
+      comment = FALSE, 
+      caption.placement = "top")
+```
+
+## Significatività delle correlazioni
+
+```{r}
+cor.test(~ pol1 + dscore_d3, data = d3complete)
+```
+
+## Visualizzare le correlazioni: `corrplot`
+
+Il pacchetto `corrplot` permette di visualizzare le correlazioni.
+
+```{r fig.align='center', out.width="60%"}
+library(corrplot)
+corrplot(cor(d3complete[, 
+          c("dscore_d3", "pol1", "pol2")]))
+```
+
+
+# Letture
+
+## 
+
+DScoreApp:
+
+\vspace{3mm}
+
+> Epifania, O. M., Anselmi, P., & Robusto, E. (2020). Dscoreapp: A shiny web application for the computation of the implicit association test D score. Frontiers in Psychology, 10, 2938. doi: [10.3389/fpsyg.2019.02938](https://www.frontiersin.org/article/10.3389/fpsyg.2019.02938)
+
+`implicitMeasures`:
+
+\vspace{3mm}
+
+> Epifania, O. M., Anselmi, P., & Robusto, E. (2020). Implicit measures with reproducible results: The implicitmeasures package. Journal of Open Source Software, 5(52), 2394. [doi: 10.21105/joss.02394](https://doi.org/10.21105/joss.02394)

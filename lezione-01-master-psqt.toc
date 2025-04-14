@@ -1,0 +1,13 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\beamer@sectionintoc {1}{Cognizione e Cognizione sociale}{2}{0}{1}
+\beamer@sectionintoc {2}{Validità delle misure in Psicologia}{7}{0}{2}
+\beamer@sectionintoc {3}{Misurazione esplicita}{10}{0}{3}
+\beamer@sectionintoc {4}{Misurazione implicita: Davvero la soluzione?}{22}{0}{4}
+\beamer@sectionintoc {5}{Misure implicite basate sulle associazioni automatiche}{31}{0}{5}
+\beamer@subsectionintoc {5}{1}{Implicit Association Test}{32}{0}{5}
+\beamer@subsectionintoc {5}{3}{Go-No/Go Association Task}{55}{0}{5}
+\beamer@subsectionintoc {5}{4}{Sorting Paired Features Task}{60}{0}{5}
+\beamer@sectionintoc {6}{Misure implicite basate sul priming}{62}{0}{6}
+\beamer@subsectionintoc {6}{1}{Affective Misattribution Procedure}{65}{0}{6}
+\beamer@sectionintoc {7}{A measure in search of a construct}{67}{0}{7}

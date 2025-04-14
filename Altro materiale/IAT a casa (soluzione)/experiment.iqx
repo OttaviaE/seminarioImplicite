@@ -1,0 +1,1289 @@
+﻿
+**************************************************************************************************************
+**************************************************************************************************************
+	EDITABLE PARAMETERS: change editable parameters here
+**************************************************************************************************************
+**************************************************************************************************************
+
+<parameters>
+/showsummaryfeedback = true
+/ISI = 250
+</parameters>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	EDITABLE STIMULI: change editable stimuli here
+**************************************************************************************************************
+**************************************************************************************************************
+This sample IAT can be easily adapted to different target categories 
+and attributes. To change the categories, you need only change the 
+stimulus items and labels immediately below this line.
+
+***********************************************************************
+<item attributeAlabel>
+/1 = "Buono"
+</item>
+
+<item attributeA>
+/1 = "Gioia"
+/2 = "Amore"
+/3 = "Pace"
+/4 = "Meraviglioso"
+/5 = "Piacere"
+/6 = "Gloria"
+/7 = "Risata"
+/8 = "Felicità"
+</item>
+
+<item attributeBlabel>
+/1 = "Cattivo"
+</item>
+
+<item attributeB>
+/1 = "Agonia"
+/2 = "Terribile"
+/3 = "Orribile"
+/4 = "Odioso"
+/5 = "Malvagio"
+/6 = "Tremendo"
+/7 = "Fallimento"
+/8 = "Ferito"
+</item>
+
+<item targetAlabel>
+/1 = "Al Latte"
+</item>
+
+<item targetA>
+/1 = "latte1.jpg"
+/2 = "latte2.jpg"
+/3 = "latte3.jpg"
+/4 = "latte4.jpg"
+/5 = "latte5.jpg"
+/6 = "latte6.jpg"
+</item>
+
+<item targetBlabel>
+/1 = "Fondente"
+</item>
+
+<item targetB>
+/1 = "fond1.jpg"
+/2 = "fond2.jpg"
+/3 = "fond3.jpg"
+/4 = "fond4.jpg"
+/5 = "fond5.jpg"
+/6 = "fond6.jpg"
+</item>
+**************************************************************************************************************
+**************************************************************************************************************
+	EDITABLE INSTRUCTIONS: change instructions here
+**************************************************************************************************************
+**************************************************************************************************************
+
+<text reminder>
+/ items = ("Controlla le categorie - premi SPAZIO per cominciare")
+/ position = (50%, 75%) 
+/ color = (255, 255, 255)
+/ fontstyle = ("Arial", 3%, false, false, false, false, 5, 1)
+</text>
+
+
+<trial reminder> 
+/ correctresponse = (" ") 
+/ frames = [1=reminder] 
+/ responsemode = correct 
+</trial>
+
+<instruct>
+/ navigationbuttonfontstyle = ("Arial", 3%, false, false, false, false, 1, 5)
+</instruct>
+
+<htmlpage iatintro>
+/ file = "intro_pictureiat.htm"
+</htmlpage>
+
+<item IAT1>
+/1 = 
+"In questa prova, alcune immagini appariranno una alla volta al centro dello schermo. Il tuo compito è associarle alle categorie che appaiono in corrispondenza degli angoli superiori. 
+
+Tutte le immagini che appartengono alla categoria '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le immagini che appartengono alla categoria '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! Precisione e velocità sono parimenti importanti. 
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+
+<text IAT1>
+/ items = IAT1
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT1>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT1, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT1>
+/trials = [1= IAT1]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+<item IAT2>
+/1 = "
+In questa prova, alcune parole appariranno una alla volta al centro dello schermo. Il tuo compito è associarle alle categorie che appaiono in corrispondenza degli angoli superiori. 
+
+Tutte le parole che appartengono alla categoria '<%item.attributeAlabel.item(1)%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le parole che appartengono alla categoria '<%item.attributeBlabel.item(1)%>' destra dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire.
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT2>
+/ items = IAT2
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT2>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT2, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT2>
+/trials = [1= IAT2]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+<item IAT3>
+/1 = "
+Le quattro categorie che hai visto separatamente, ora appaiono insieme. Ricordati, ogni stimolo appartiene solo a una categoria. 
+
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeAlabel.item(1)%>' e '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeBlabel.item(1)%>' e '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire. 
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT3>
+/ items = IAT3
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT3>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT3, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT3>
+/trials = [1= IAT3]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+
+<item IAT4>
+/1 = "
+Attenzione! Le etichette hanno cambiato posizione. 
+
+Tutte le immagini che appartengono alla categoria a '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le immagini che appartengono alla categoria a '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire.
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT4>
+/ items = IAT4
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT4>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT4, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT4>
+/trials = [1= IAT4]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+<item IAT5>
+/1 = "
+Le quattro categorie appaiono di nuovo insieme. Ricordati, ogni stimolo appartiene solo a una categoria. 
+
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeAlabel.item(1)%>' e '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeBlabel.item(1)%>' e '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire.
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT5>
+/ items = IAT5
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT5>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT5, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT5>
+/trials = [1= IAT5]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+<item IAT_pause>
+/1 = "Riposati se ti senti affaticato.
+
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeAlabel.item(1)%>' e '<%expressions.leftTarget%>' dovranno essere assegnate con il tasto ‘E’. 
+Tutte le parole o le immagini che appartengono alle categorie '<%item.attributeBlabel.item(1)%>' e '<%expressions.rightTarget%>' dovranno essere assegnate con il tasto ‘I’.
+
+Pur essendo normale commettere alcuni errori, cerca di essere il più veloce e accurato possibile! In caso di errore, una X rossa appare sullo schermo e devi correggere la tua risposta per proseguire.
+
+Posiziona l’indice della mano sinistra sul tasto ‘E’ e quello della mano destra sul tasto ‘I’. Quando sei pronto per cominciare, premi spazio."
+</item>
+
+<text IAT_pause>
+/ items = IAT_pause
+/ hjustify = left
+/ size = (100%, 60%)
+/ position = (50%, 75%)
+/ valign = bottom
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial IAT_pause>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=IAT_pause, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block IAT_pause>
+/trials = [1= IAT_pause]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+<item demo_istruzioni>
+/1 = 
+"Per favore, compila il questionario che apparirà nelle pagine seguenti"
+</item>
+
+
+<text demo_istruzioni>
+/ items = demo_istruzioni
+/ hjustify = center
+/ size = (100%, 60%)
+/ position = (50%, 35%)
+/ valign = top
+/ select = sequence
+/ resetinterval = 20
+/ txcolor = (255, 255, 255)
+</text>
+
+<trial demo_istruzioni>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=demo_istruzioni, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ correctmessage = false
+/ recorddata = false
+</trial>
+
+<block demo_istruzioni>
+/trials = [1= demo_istruzioni]
+/ recorddata = false
+/responsemode = correct
+</block>
+
+
+<item instructions>
+/ 1 = "Put your left finger on the 'E' response key for items that belong to the category '<%expressions.leftTarget%>'.
+Put your right finger on the 'I' response key for items that belong to the category '<%expressions.rightTarget%>'.
+~nItems will appear one-by-one in the middle of the screen.
+~nIf you make an error, a red X will appear - to continue, press the other response key.
+~nGo as fast as you can while making as few errors as possible."
+
+/ 2 = "Put your left finger on the 'E' response key for items that belong to the category '<%item.attributeAlabel.item(1)%>'.
+Put your right finger on the 'I' response key for items that belong to the category '<%item.attributeBlabel.item(1)%>'.
+~nIf you make an error, a red X will appear - to continue, press the other response key.
+~nGo as fast as you can while making as few errors as possible."
+
+/ 3 = "Press the left 'E' key for '<%item.attributeAlabel.item(1)%>' and '<%expressions.leftTarget%>'.
+Press the right 'I' key for '<%item.attributeBlabel.item(1)%>' and '<%expressions.rightTarget%>'.
+~nEach item belongs to only one category.
+~nIf you make an error, a red X will appear - to continue, press the other response key.
+~nGo as fast as you can while making as few errors as possible."
+
+/ 4 = "This is the same task as the previous one.
+~n~nPress the left 'E' key for '<%item.attributeAlabel.item(1)%>' and '<%expressions.leftTarget%>'.
+Press the right 'I' key for '<%item.attributeBlabel.item(1)%>' and '<%expressions.rightTarget%>'.
+~nEach item belongs to only one category.
+~nGo as fast as you can while making as few errors as possible."
+
+/ 5 = "Attention! The labels have changed sides.
+~nPress the left 'E' key for '<%expressions.rightTarget%>'.
+Press the right 'I' key for '<%expressions.leftTarget%>'.
+~nGo as fast as you can while making as few errors as possible."
+
+/ 6 = "Press the left 'E' key for '<%item.attributeAlabel.item(1)%>' and '<%expressions.rightTarget%>'.
+Press the right 'I' key for '<%item.attributeBlabel.item(1)%>' and '<%expressions.leftTarget%>'.
+~nIf you make an error, a red X will appear - to continue, press the other response key.
+~nGo as fast as you can while making as few errors as possible."
+
+/ 7 = "This is the same task as the previous one.
+~nPress the left 'E' key for '<%item.attributeAlabel.item(1)%>' and '<%expressions.rightTarget%>'.
+Press the right 'I' key for '<%item.attributeBlabel.item(1)%>' and '<%expressions.leftTarget%>'
+~nEach item belongs to only one category.
+~nGo as fast as you can while making as few errors as possible."
+</item>
+
+Note: expressions used to assign the correct label to the left and right response keys
+<expressions>
+/ leftTarget = if(values.conditionOrder == "c-ic"){
+	item.targetAlabel.item(1);
+} else {
+	item.targetBlabel.item(1);
+};
+/ rightTarget = if (values.conditionOrder == "c-ic"){
+	item.targetBlabel.item(1);
+} else {
+	item.targetAlabel.item(1);
+};
+</expressions>
+
+<text spacebar>
+/ items = ("Premi spazio per cominciare.")
+/ position = (50%, 90%)
+/ valign = bottom
+</text>
+
+<text errorReminder>
+/ items = ("In caso di errore, una X rossa appare. Premi l'altro tasto per continuare.")
+/ position = (50%, 95%)
+/ valign = bottom
+/ fontstyle = ("Arial", 3%, false, false, false, false, 5, 1)
+/ txcolor = gray
+/ erase = false
+</text>
+
+<text finish>
+/ items = ("Grazie!")
+/ fontstyle = ("Arial", 8%, true, false, false, false, 5, 1)
+/ position = (50%, 50%)
+/ size = (80%, 80%)
+/ vjustify = center
+/ valign = center
+/ halign = center
+</text>
+
+<text exit>
+/ items = ("Premi SPAZIO per uscire")
+/ fontstyle = ("Arial", 3%, false, false, false, false, 5, 1)
+/ position = (50%, 90%)
+/ size = (80%, 5%)
+/ vjustify = center
+/ valign = center
+/ halign = center
+</text>
+
+***********************************************************************
+Performance summary
+***********************************************************************
+
+<trial summary>
+/ ontrialbegin = [
+	values.magnitude = "little to no";
+	if( abs(expressions.d) > 0.15 ) values.magnitude = "a slight";
+	if( abs(expressions.d) > 0.35 ) values.magnitude = "a moderate";
+	if( abs(expressions.d) >= 0.65 ) values.magnitude = "a strong";
+	if (expressions.d >= 0.0) values.preferred = item.targetALabel.1;
+	if (expressions.d < 0.0) values.preferred = item.targetBLabel.1;
+	if (expressions.d < 0.0) values.notpreferred= item.targetALabel.1;
+	if (expressions.d >= 0.0) values.notpreferred= item.targetBLabel.1;
+]
+/ stimulustimes = [0=summary]
+/ validresponse = (" ")
+/ recorddata = false
+</trial>
+
+<text summary>
+/ items = ("Your IAT score (D) was <% expressions.d %>, which suggests <% values.magnitude %> automatic preference for <% values.preferred %> compared to <% values.notpreferred %>.~n~n~nPress the spacebar to complete this session.") 
+/ size = (60%, 60%)
+/ hjustify = left
+ </text>
+
+**************************************************************************************************************
+								!!!REMAINING CODE: Customize after careful consideration only!!!
+**************************************************************************************************************
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+	DEFAULTS
+**************************************************************************************************************
+**************************************************************************************************************
+script requires Inquisit 6.5.2.0 or higher
+
+<defaults>
+/ fontstyle = ("Arial", 3.5%, false, false, false, false, 5, 1)
+/ screencolor = black
+/ txbgcolor = black
+/ txcolor = white
+/ minimumversion = "6.5.2.0"
+/ canvasaspectratio = (4, 3)
+</defaults>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	DATA
+**************************************************************************************************************
+**************************************************************************************************************
+
+Note: data file explanations under User Manual Information at the top
+
+***********************
+raw data file
+***********************
+<data>
+/ columns = (build, computer.platform, date, time, subject, group, session, blockcode, blocknum, 
+trialcode, trialnum, values.conditionOrder,
+response, correct, latency, 
+stimulusnumber, stimulusitem, 
+expressions.da, expressions.db, expressions.d, expressions.percentcorrect, 
+expressions.propRT300, expressions.excludeCriteriaMet)
+</data>
+
+****************
+summary data
+****************
+
+<summarydata>
+/ columns = (inquisit.version, computer.platform, script.startdate, script.starttime, 
+script.subjectid, script.groupid, script.sessionid, script.elapsedtime, 
+script.completed, values.conditionOrder,
+expressions.da, expressions.db, expressions.d, expressions.percentcorrect, 
+expressions.propRT300, expressions.excludeCriteriaMet)
+</summarydata>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	VALUES: automatically updated
+**************************************************************************************************************
+**************************************************************************************************************
+
+<values>
+/ magnitude = "unknown"
+/ preferred = "unknown"
+/ notpreferred = "unknown"
+/ progresswidth = 0
+/ instructionIndex = 0
+/conditionOrder = ""
+</values>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	EXPRESSIONS
+**************************************************************************************************************
+**************************************************************************************************************
+
+* 1 is compatible, 2 is incompatible
+* a is first block, b is second block
+
+/ m1a:					mean latencies of correct responses in first compatible block (short block)
+/ sd1a:					standard deviation of latencies of correct responses in first compatible block (short block)
+
+/ m2a:					mean latencies of correct responses in first incompatible block (short block)
+/ sd2a					standard deviation of latencies of correct responses in first incompatible block (short block)
+
+/ m1b:					mean latencies of correct responses in second compatible block (long block)
+/ sd1b:					standard deviation of latencies of correct responses in second compatible block (long block)
+
+/ m2b:					mean latencies of correct responses in second incompatible block (long block)
+/ sd2b:					standard deviation of latencies of correct responses in second incompatible block (long block)
+
+/ sda					pooled standarddeviation of latencies in first block (short block)
+/ sdb 					pooled standarddeviation of latencies in second block (long block)
+
+/ da:					D-score for first blocks		
+/ db:					D-score for second blocks
+
+/ d:					overall D-score (non-weighted mean of the d-scores from the short and long block)
+
+/ percentcorrect:       calculates the overall percent correct score of initial responses of test trials of D-score qualifying latencies
+/ progress:				sets the length of the progress bar to %
+
+<expressions>
+/m1a = list.RT_compatible1.mean
+/sd1a = list.RT_compatible1.standarddeviation
+/m1b = list.RT_compatible2.mean
+/sd1b = list.RT_compatible2.standarddeviation
+/m2a = list.RT_incompatible1.mean
+/sd2a = list.RT_incompatible1.standarddeviation
+/m2b = list.RT_incompatible2.mean
+/sd2b = list.RT_incompatible2.standarddeviation
+/sda = list.RT_block1.standarddeviation
+/sdb = list.RT_block2.standarddeviation
+/ da = (expressions.m2a - expressions.m1a) / expressions.sda
+/ db = (expressions.m2b - expressions.m1b) / expressions.sdb
+/ d = (expressions.da + expressions.db) / 2
+
+/percentcorrect = list.ACC.mean*100
+/ progress = 1% * values.progresswidth
+/ propRT300 = list.RT300.mean
+/ excludeCriteriaMet = if (expressions.propRT300 > 0.1){
+	1;
+} else {
+	0;
+}
+</expressions>
+
+//stores qualifying response times from short compatible block 
+<list RT_compatible1>
+</list>
+
+//stores qualifying response times from long compatible block 
+<list RT_compatible2>
+</list>
+
+//stores qualifying response times from short incompatible block 
+<list RT_incompatible1>
+</list>
+
+//stores qualifying response times from long incompatible block 
+<list RT_incompatible2>
+</list>
+
+//stores qualifying response times from short block (pooled)
+<list RT_block1>
+</list>
+
+//stores qualifying response times from long block (pooled)
+<list RT_block2>
+</list>
+
+//stores accuracy of D-score qualifying responses
+<list ACC>
+</list>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	INSTRUCTIONS
+**************************************************************************************************************
+**************************************************************************************************************
+
+<text instructions>
+/ items = instructions
+/ position = (10%, 25%)
+/ halign = left
+/ valign = top
+/ hjustify = left
+/ vjustify = center
+/ size = (80%, 50%)
+/ select = values.instructionIndex
+</text>
+
+<trial instructions>
+/ ontrialbegin = [
+	values.progresswidth += 10;
+	values.instructionIndex += 1;
+]
+/ stimulustimes = [1=instructions, spacebar, progressbar, progressbar_fill]
+/ correctresponse = (" ")
+/ errormessage = false
+/ recorddata = false
+/ showmousecursor = true
+</trial>
+
+<trial finish>
+/ recorddata = true
+/ stimulusframes = [1 = finish, exit]
+/ validresponse = (" ")
+</trial>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	STIMULI
+**************************************************************************************************************
+**************************************************************************************************************
+
+<shape progressbar>
+/shape = rectangle
+/ size = (70%, 2%)
+/ color = gray
+/ position = (15%, 95%)
+/ halign = left
+/ valign = top
+</shape>
+
+<shape progressbar_fill>
+/shape = rectangle
+/ size = (expressions.progress, 2%)
+/ color = green
+/ position = (15%, 95%)
+/ halign = left
+/ valign = top
+</shape>
+
+<text attributeA>
+/ items = attributeA
+/ fontstyle = ("Arial", 5%)
+/ txcolor = green
+</text>
+
+<text attributeB>
+/ items = attributeB
+/ fontstyle = ("Arial", 5%)
+/ txcolor = green
+</text>
+
+<picture targetB>
+/ items = targetB
+/ size = (20%, 20%)
+</picture>
+
+<picture targetA>
+/ items = targetA
+/ size = (20%, 20%)
+</picture>
+
+<text error>
+/ position = (50%, 75%)
+/ items = ("X")
+/ color = red
+/ fontstyle = ("Arial", 10%, true)
+</text>
+
+<text attributeAleft>
+/ items = attributeAlabel
+/ valign = top
+/ halign = left
+/ position = (5%, 5%)
+/ txcolor = green
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text attributeBright>
+/ items = attributeBlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 5%)
+/ txcolor = green
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text targetBleft>
+/ items = targetBlabel
+/ valign = top
+/ halign = left	
+/ position = (5%, 5%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text targetBright>
+/ items = targetBlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 5%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text targetBleftmixed>
+/ items = targetBlabel
+/ valign = top
+/ halign = left
+/ position = (5%, 10%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text targetBrightmixed>
+/ items = targetBlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 10%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text targetAleft>
+/ items = targetAlabel
+/ valign = top
+/ halign = left
+/ position = (5%, 5%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text targetAright>
+/ items = targetAlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 5%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text targetAleftmixed>
+/ items = targetAlabel
+/ valign = top
+/ halign = left
+/ position = (5%, 10%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text targetArightmixed>
+/ items = targetAlabel
+/ valign = top
+/ halign = right
+/ position = (95%, 10%)
+/ fontstyle = ("Arial", 5%)
+</text><text orleft>
+/ items = ("or")
+/ valign = top
+/ halign = left
+/ position = (5%, 12%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+<text orright>
+/ items = ("or")
+/ valign = top
+/ halign = right
+/ position = (95%, 12%)
+/ fontstyle = ("Arial", 5%)
+</text>
+
+***********************************************************************************************************
+informazioni demografiche 
+************************************************************************************************************
+
+<radiobuttons genere>
+/ caption = "Genere"
+/ options = ("Femmina", "Maschio", "Altro")
+/orientation = horizontal
+/fontstyle = ("Arial", 18)
+/responsefontstyle = ("Arial",16)
+/ orientation = horizontal
+/ required = true
+</radiobuttons>
+		
+<dropdown età>
+/ caption = "Età in anni compiuti"
+/fontstyle = ("Arial", 18)
+/ responsefontstyle = ("Arial", 16)
+/ options = ("17", "18", "19", "20", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "più di 30")
+/ optionvalues = ("17", "18", "19", "20", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "più di 30")
+</dropdown>
+		
+<checkboxes occupazione>
+	/caption = "Scegli la tua occupazione  (puoi indicare più di una risposta)"
+	/fontstyle = ("Arial", 18)
+	/ responsefontstyle = ("Arial", 16)
+	/options =  ("Lavoratore", "Studente", "Disoccupato", 
+               	"Dottorando", "Assegnista")
+	/optionvalues = ("lav", "stud", "dis", "dott", "ass")
+</checkboxes>
+
+
+<dropdown studio>
+/ caption = "Titolo di studio"
+/ options = ("Licenza Elementare", "Licenza Media", "Diploma", "Laurea Triennale", "Laurea Magistrale", "Dottorato/Scuola di specializzazione")
+/ optionvalues = ("elementare", "media", "diploma", "triennale", "magistrale", "dott")
+/orientation = horizontal
+/fontstyle = ("Arial", 18)
+/responsefontstyle = ("Arial",16)
+</dropdown>
+
+<surveypage demografica>
+/ questions = [1=genere; 2=età; 3=occupazione; 4=studio] 
+/ txcolor = black
+/ finishlabel = "Pagina Successiva"
+/ nextbuttonposition = (80%,90%)
+/ showpagenumbers = false
+/showquestionnumbers = false
+</surveypage>
+
+
+<block demografica>
+/trials = [1=demografica]
+/screencolor =(170, 170, 170)
+</block>
+
+***************************
+<slider fondente>
+/ caption = "Il cioccolato fondente mi piace molto"
+/ labels = ("1~nCompletamente in disaccordo", "2", "3", "4~nCompletamente d'accordo")
+/ range = (1, 4)
+/ defaultresponse = "1"
+/increment = 0.5
+/ position = (5%, 5%)
+/ showticks = true
+/ slidersize =(70%, 10%)
+/ txcolor = black
+/fontstyle = ("Arial", 20)
+/responsefontstyle = ("Arial",16)
+</slider>
+
+<slider latte>
+/ caption = "Il cioccolato al latte mi piace molto"
+/ labels = ("1~nCompletamente in disaccordo", "2", "3", "4~nCompletamente d'accordo")
+/ range = (1, 4)
+/ defaultresponse = "1"
+/increment = 0.5
+/ position = (5%, 35%)
+/ showticks = true
+/ slidersize =(70%, 10%)
+/ txcolor = black
+/fontstyle = ("Arial", 20)
+/responsefontstyle = ("Arial",16)
+</slider>
+
+<slider confronto>
+/ caption = "Indica la tua posizione rispetto al cioccolato che preferisci"
+/ labels = ("1~nCioccolato al latte", "2", "3", "4", "5", "6~nCioccolato fondente")
+/ range = (1, 6)
+/ defaultresponse = "1"
+/increment = 0.5
+/ position = (5%, 65%)
+/ showticks = true
+/ slidersize =(70%, 10%)
+/ txcolor = black
+/fontstyle = ("Arial", 20)
+/responsefontstyle = ("Arial",16)
+</slider>
+
+<surveypage preferenza>
+/ questions = [1=fondente; 2=latte; 3=confronto] 
+/ txcolor = black
+/ finishlabel = "Pagina Successiva"
+/ nextbuttonposition = (80,90)
+/ showpagenumbers = false
+/showquestionnumbers = false
+</surveypage>
+
+
+<block preferenza>
+/trials = [1=preferenza]
+/screencolor =(170, 170, 170)
+</block>
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+	LISTS	
+**************************************************************************************************************
+**************************************************************************************************************
+
+*************************************************
+Data Lists: used for descriptive statistics
+store correct latencies/accuracy data
+fill up during runtime
+*************************************************
+
+Note: list stores 1 for latencies < 300ms (0 otherwise)
+<list RT300>
+</list>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	TRIALS 	
+**************************************************************************************************************
+**************************************************************************************************************
+
+<trial attributeA>
+/ validresponse = ("E", "I")
+/ correctresponse = ("E")
+/ stimulusframes = [1 = attributeA]
+/ posttrialpause = parameters.ISI
+</trial>
+
+<trial attributeB>
+/ validresponse = ("E", "I")
+/ correctresponse = ("I")
+/ stimulusframes = [1 = attributeB]
+/ posttrialpause = parameters.ISI
+</trial>
+
+<trial targetBleft>
+/ validresponse = ("E", "I")
+/ correctresponse = ("E")
+/ stimulusframes = [1 = targetB]
+/ posttrialpause = parameters.ISI
+</trial>
+
+<trial targetBright>
+/ validresponse = ("E", "I")
+/ correctresponse = ("I")
+/ stimulusframes = [1 = targetB]
+/ posttrialpause = parameters.ISI
+</trial>
+
+<trial targetAleft>
+/ validresponse = ("E", "I")
+/ correctresponse = ("E")
+/ stimulusframes = [1 = targetA]
+/ posttrialpause = parameters.ISI
+</trial>
+
+<trial targetAright>
+/ validresponse = ("E", "I")
+/ correctresponse = ("I")
+/ stimulusframes = [1 = targetA]
+/ posttrialpause = parameters.ISI
+</trial>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	BLOCKS
+**************************************************************************************************************
+**************************************************************************************************************
+
+<block attributepractice>
+/ bgstim = (attributeAleft, attributeBright)
+/ trials = [
+	1=reminder;
+	2-21 = random(attributeA, attributeB);
+]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block targetcompatiblepractice>
+/ bgstim = (targetAleft, targetBright)
+/ trials = [
+	1=reminder;
+	2-21 = random(targetAleft, targetBright);
+]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block targetincompatiblepractice>
+/ bgstim = (targetAright, targetBleft)
+/ trials = [
+	1=reminder;
+	2-21 = random(targetAright, targetBleft);
+]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block targetcompatiblepracticeswitch>
+/ bgstim = (targetAleft, targetBright)
+/ trials = [
+	1=reminder;
+	2-41 = random(targetAleft, targetBright);
+]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block targetincompatiblepracticeswitch>
+/ bgstim = (targetAright, targetBleft)
+/ trials = [
+	1=reminder;
+	2-41 = random(targetAright, targetBleft);
+]
+/ errormessage = true(error,200)
+/ responsemode = correct
+</block>
+
+<block compatibletest1>
+/ bgstim = (targetAleftmixed,  attributeAleft, targetBrightmixed,  attributeBright)
+/ trials = [
+	1=reminder;
+	3,5,7,9,11,13,15,17,19,21= random(targetAleft, targetBright);
+	2,4,6,8,10,12,14,16,18,20 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+/ ontrialend = [
+	if (block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) {		
+		list.RT_compatible1.appenditem(block.compatibletest1.latency);
+		list.RT_block1.appenditem(block.compatibletest1.latency);
+		list.ACC.appenditem(block.compatibletest1.correct);
+
+	};
+	if (block.compatibletest1.latency < 300) {
+		list.RT300.appenditem(1);
+	} else {
+		list.RT300.appenditem(0);
+	};
+]
+</block>
+
+<block compatibletest2>
+/ bgstim = (targetAleftmixed, attributeAleft, targetBrightmixed, attributeBright)
+/ trials = [
+  2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(targetAleft, targetBright);
+  1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+/ ontrialend = [
+	if (block.compatibletest2.latency  <= 10000) {
+		list.RT_compatible2.appenditem(block.compatibletest2.latency);
+		list.RT_block2.appenditem(block.compatibletest2.latency);
+		list.ACC.appenditem(block.compatibletest2.correct);		
+
+	};
+	if (block.compatibletest2.latency  < 300) {
+		list.RT300.appenditem(1);
+	} else {
+		list.RT300.appenditem(0);
+	};
+]
+</block>
+
+<block incompatibletest1>
+/ bgstim = (targetBleftmixed, attributeAleft, targetArightmixed, attributeBright)
+/ trials = [
+	1=reminder;
+	3,5,7,9,11,13,15,17,19,21 = random(targetBleft, targetAright);
+	2,4,6,8,10,12,14,16,18,20 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+/ ontrialend = [
+	if (block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1) {		
+		list.RT_incompatible1.appenditem(block.incompatibletest1.latency);
+		list.RT_block1.appenditem(block.incompatibletest1.latency);
+		list.ACC.appenditem(block.incompatibletest1.correct);		
+
+	};
+	if (block.incompatibletest1.latency  < 300) {
+		list.RT300.appenditem(1);
+	} else {
+		list.RT300.appenditem(0);
+	};
+]
+</block>
+
+<block incompatibletest2>
+/ bgstim = (targetBleftmixed, attributeAleft, targetArightmixed, attributeBright)
+/ trials = [
+  2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(targetBleft, targetAright);
+  1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attributeA, attributeB)]
+/ errormessage = true(error,200)
+/ responsemode = correct
+/ ontrialend = [
+	if (block.incompatibletest2.latency  <= 10000) {		
+		list.RT_incompatible2.appenditem(block.incompatibletest2.latency);
+		list.RT_block2.appenditem(block.incompatibletest2.latency);
+		list.ACC.appenditem(block.incompatibletest2.correct);			
+
+	};
+	if (block.incompatibletest2.latency  < 300) {
+		list.RT300.appenditem(1);
+	} else {
+		list.RT300.appenditem(0);
+	};
+]
+</block>
+
+<block compatibletestinstructions>
+/ bgstim = (targetAleftmixed, attributeAleft, targetBrightmixed, attributeBright)
+/ trials = [1=instructions]
+/ recorddata = false
+</block>
+
+<block incompatibletestinstructions>
+/ bgstim = (targetBleftmixed, attributeAleft, targetArightmixed, attributeBright)
+/ trials = [1=instructions]
+/ recorddata = false
+</block>
+
+<block summary>
+/ skip = [parameters.showsummaryfeedback == false]
+/ trials = [1=summary]
+/ recorddata = false
+</block>
+
+<block end>
+/ trials = [1 = finish]
+</block>
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+	EXPERIMENT 
+**************************************************************************************************************
+**************************************************************************************************************
+Groupassignment is done by groupnumber
+<expt>
+/ onexptbegin = [
+	values.conditionOrder = "c-ic"
+	]
+/ preinstructions = (iatintro)
+/ groups = (1 of 4)
+/ blocks = [
+	1=demo_istruzioni; 2=demografica; 3= preferenza;
+	4=IAT1; 5=targetcompatiblepractice; 
+	6=IAT2; 7=attributepractice; 
+	8=IAT3; 9=compatibletest1; 
+	10=IAT_pause; 11=compatibletest2; 
+	12=IAT4; 13=targetincompatiblepractice; 
+	14=IAT5;15=incompatibletest1; 
+	16=IAT_pause; 17=incompatibletest2; 18=summary; 19= end;
+			]
+</expt>
+
+
+
+<expt>
+/ onexptbegin = [
+ values.conditionOrder = "c-ic"
+ ]
+/ preinstructions = (iatintro)
+/ groups = (2 of 4)
+/ blocks = [
+	1=IAT1; 2=targetcompatiblepractice; 
+	3=IAT2; 4=attributepractice;  
+	5=IAT3; 6=compatibletest1; 
+	7=IAT_pause; 8=compatibletest2; 
+	9=IAT4; 10=targetincompatiblepractice; 
+	11=IAT5;12=incompatibletest1; 
+	13=IAT_pause; 14=incompatibletest2; 		
+	15=demo_istruzioni;
+	16=demografica; 17=preferenza; 18=summary; 19= end;
+ ]
+</expt>	
+
+
+<expt>
+/ onexptbegin = [
+ values.conditionOrder = "ic-c"
+]
+/ preinstructions = (iatintro)
+/ groups = (3 of 4)
+/ blocks = [
+	1=demo_istruzioni;  
+	2=demografica; 3=preferenza;
+	4=IAT1; 5=targetincompatiblepractice; 
+	6=IAT2; 7=attributepractice; 
+	8=IAT3; 9=incompatibletest1; 
+	10=IAT_pause; 11=incompatibletest2; 
+	12=IAT4; 13=targetcompatiblepractice; 
+	14=IAT5;15=compatibletest1; 
+16=IAT_pause; 17=compatibletest2; 18=summary; 19= end;
+]
+</expt>
+
+<expt>
+/ onexptbegin = [
+values.conditionOrder = "ic-c"
+]
+/ preinstructions = (iatintro)
+/ groups = (4 of 4)
+/ blocks = [
+	1=IAT1; 2=targetincompatiblepractice; 
+	3=IAT2; 4=attributepractice; 
+	5=IAT3; 6=incompatibletest1; 
+	7=IAT_pause; 8=incompatibletest2; 
+	9=IAT4; 10=targetcompatiblepractice; 
+	11=IAT5;12=compatibletest1; 
+	13=IAT_pause; 14=compatibletest2; 		
+	15=demo_istruzioni;
+	16=demografica; 17=preferenza; 
+	18=summary; 19= end;
+]
+</expt>			
+***********************************************************************
+Test Monkey
+***********************************************************************
+<monkey>
+/ latencydistribution = normal(500, 100)
+/ percentcorrect = 90
+</monkey>
+
+
+**************************************************************************************************************
+												End of File
+**************************************************************************************************************

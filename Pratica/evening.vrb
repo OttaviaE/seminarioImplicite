@@ -1,0 +1,23 @@
+\frametitle{}
+\protect\hypertarget{section-14}{}
+DScoreApp:
+
+\vspace{3mm}
+
+\begin{quote}
+Epifania, O. M., Anselmi, P., \& Robusto, E. (2020). Dscoreapp: A shiny
+web application for the computation of the implicit association test D
+score. Frontiers in Psychology, 10, 2938. doi:
+\href{https://www.frontiersin.org/article/10.3389/fpsyg.2019.02938}{10.3389/fpsyg.2019.02938}
+\end{quote}
+
+\texttt{implicitMeasures}:
+
+\vspace{3mm}
+
+\begin{quote}
+Epifania, O. M., Anselmi, P., \& Robusto, E. (2020). Implicit measures
+with reproducible results: The implicitmeasures package. Journal of Open
+Source Software, 5(52), 2394.
+\href{https://doi.org/10.21105/joss.02394}{doi: 10.21105/joss.02394}
+\end{quote}

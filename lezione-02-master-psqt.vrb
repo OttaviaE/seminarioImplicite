@@ -1,0 +1,21 @@
+\frametitle{Log-tempi}
+
+	Time intensity degli item $\delta_s$:
+	
+
+	\small
+\begin{lstlisting}
+intensity_iat = data.frame(
+		stimulus = rownames(coef(iat_time3)$stimuli),
+		intensity = coef(iat_time3)$stimuli[,1])
+graph_delta_iat = ggplot(intensity_iat,
+		(aes(x = intensity, y = stimulus))) +  geom_point()
+graph_delta_iat
+
+\end{lstlisting}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=.5\linewidth]{intensity-IAT}
+	\end{figure}
+	

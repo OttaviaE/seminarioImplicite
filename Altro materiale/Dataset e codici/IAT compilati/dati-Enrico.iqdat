@@ -1,0 +1,182 @@
+build	computer.platform	date	time	subject	group	session	blockcode	blocknum	trialcode	trialnum	conditionOrder	response	correct	latency	stimulusnumber1	stimulusitem1	da	db	d	percentcorrect	propRT300	excludeCriteriaMet
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	2	c-ic	23	0	3224	4	om1.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	3	c-ic	23	1	981	1	of1.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	4	c-ic	18	1	647	5	ym3.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	5	c-ic	18	1	826	3	yf5.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	6	c-ic	23	1	506	6	om3.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	7	c-ic	18	1	878	1	yf1.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	8	c-ic	18	1	748	6	ym5.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	9	c-ic	23	1	483	2	of2.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	10	c-ic	18	1	503	4	ym2.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	11	c-ic	23	1	646	5	om2.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	12	c-ic	18	1	608	2	yf4.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	13	c-ic	23	1	479	3	of3.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	14	c-ic	23	0	1431	2	of2.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	15	c-ic	18	1	881	1	yf1.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	16	c-ic	18	1	707	6	ym5.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	17	c-ic	23	1	500	4	om1.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	18	c-ic	23	1	775	6	om3.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetBright	19	c-ic	23	1	663	1	of1.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	20	c-ic	18	1	633	5	ym3.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetcompatiblepractice	1	targetAleft	21	c-ic	18	0	1798	3	yf5.jpg			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	2	c-ic	23	1	713	2	Terrible			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	3	c-ic	23	1	502	7	Failure			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	4	c-ic	18	1	472	8	Happy			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	5	c-ic	18	1	507	4	Wonderful			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	6	c-ic	18	1	528	7	Laughter			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	7	c-ic	23	1	406	5	Evil			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	8	c-ic	18	1	470	1	Joy			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	9	c-ic	23	1	554	4	Nasty			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	10	c-ic	23	1	459	3	Horrible			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	11	c-ic	18	1	446	3	Peace			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	12	c-ic	23	1	507	6	Awful			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	13	c-ic	23	0	920	8	Hurt			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	14	c-ic	18	1	767	5	Pleasure			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	15	c-ic	23	1	968	1	Agony			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	16	c-ic	23	1	641	8	Hurt			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeB	17	c-ic	23	1	851	3	Horrible			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	18	c-ic	18	1	429	2	Love			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	19	c-ic	18	1	1249	6	Glorious			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	20	c-ic	18	1	720	5	Pleasure			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	attributepractice	2	attributeA	21	c-ic	18	1	565	7	Laughter			0	nan	nan	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeA	2	c-ic	18	1	812	3	Peace			0	100	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetAleft	3	c-ic	18	1	624	2	yf4.jpg	nan		nan	100	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeB	4	c-ic	23	1	562	2	Terrible	nan		nan	100	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetBright	5	c-ic	23	1	562	3	of3.jpg	nan		nan	100	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeA	6	c-ic	18	1	481	1	Joy	nan		nan	100	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetAleft	7	c-ic	18	0	1011	4	ym2.jpg	nan		nan	83,3333333333333428072	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeA	8	c-ic	18	1	464	8	Happy	nan		nan	85,7142857142857081953	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetBright	9	c-ic	23	1	605	5	om2.jpg	nan		nan	87,5	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeA	10	c-ic	18	1	829	4	Wonderful	nan		nan	88,8888888888888857309	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetAleft	11	c-ic	18	1	591	2	yf4.jpg	nan		nan	90	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeB	12	c-ic	23	1	622	1	Agony	nan		nan	90,9090909090909065071	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetBright	13	c-ic	23	1	467	5	om2.jpg	nan		nan	91,6666666666666571928	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeB	14	c-ic	23	1	595	5	Evil	nan		nan	92,3076923076923065992	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetBright	15	c-ic	23	1	606	1	of1.jpg	nan		nan	92,8571428571428612031	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeB	16	c-ic	23	1	561	7	Failure	nan		nan	93,3333333333333285964	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetAleft	17	c-ic	18	1	466	5	ym3.jpg	nan		nan	93,75	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeA	18	c-ic	18	1	626	6	Glorious	nan		nan	94,1176470588235218884	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetAleft	19	c-ic	18	1	581	6	ym5.jpg	nan		nan	94,4444444444444428655	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	attributeB	20	c-ic	23	1	585	6	Awful	nan		nan	94,7368421052631504153	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest1	3	targetBright	21	c-ic	23	1	399	4	om1.jpg	nan		nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	1	c-ic	23	1	845	4	Nasty	nan		nan	95,2380952380952265912	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	2	c-ic	23	1	522	3	of3.jpg	nan	nan	nan	95,4545454545454532536	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	3	c-ic	18	1	469	2	Love	nan	nan	nan	95,6521739130434838216	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	4	c-ic	23	1	458	2	of2.jpg	nan	nan	nan	95,8333333333333428072	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	5	c-ic	18	1	900	4	Wonderful	nan	nan	nan	96	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	6	c-ic	23	1	534	6	om3.jpg	nan	nan	nan	96,153846153846160405	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	7	c-ic	18	1	508	3	Peace	nan	nan	nan	96,2962962962962905067	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	8	c-ic	18	1	614	3	yf5.jpg	nan	nan	nan	96,4285714285714306016	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	9	c-ic	23	1	500	1	Agony	nan	nan	nan	96,5517241379310320326	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	10	c-ic	18	1	548	1	yf1.jpg	nan	nan	nan	96,6666666666666714036	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	11	c-ic	23	1	519	3	Horrible	nan	nan	nan	96,774193548387103192	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	12	c-ic	23	1	570	2	of2.jpg	nan	nan	nan	96,875	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	13	c-ic	23	0	2260	8	Hurt	nan	nan	nan	93,9393939393939376714	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	14	c-ic	23	1	1359	4	om1.jpg	nan	nan	nan	94,1176470588235218884	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	15	c-ic	18	1	613	1	Joy	nan	nan	nan	94,2857142857142775938	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	16	c-ic	18	1	569	4	ym2.jpg	nan	nan	nan	94,4444444444444428655	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	17	c-ic	23	1	471	2	Terrible	nan	nan	nan	94,594594594594596515	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	18	c-ic	18	1	566	2	yf4.jpg	nan	nan	nan	94,7368421052631504153	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	19	c-ic	18	1	510	5	Pleasure	nan	nan	nan	94,8717948717948615922	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	20	c-ic	23	1	518	6	om3.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	21	c-ic	23	1	496	4	Nasty	nan	nan	nan	95,1219512195121978948	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	22	c-ic	23	1	490	1	of1.jpg	nan	nan	nan	95,2380952380952265912	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	23	c-ic	23	0	875	6	Awful	nan	nan	nan	93,0232558139534830843	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	24	c-ic	23	1	554	3	of3.jpg	nan	nan	nan	93,1818181818181727749	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	25	c-ic	18	1	525	8	Happy	nan	nan	nan	93,3333333333333285964	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	26	c-ic	18	1	531	1	yf1.jpg	nan	nan	nan	93,478260869565218627	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	27	c-ic	18	1	450	7	Laughter	nan	nan	nan	93,6170212765957501233	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	28	c-ic	23	1	560	5	om2.jpg	nan	nan	nan	93,75	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	29	c-ic	18	1	462	2	Love	nan	nan	nan	93,8775510204081626853	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	30	c-ic	18	1	516	6	ym5.jpg	nan	nan	nan	94	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	31	c-ic	23	1	459	7	Failure	nan	nan	nan	94,1176470588235218884	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	32	c-ic	18	1	1235	4	ym2.jpg	nan	nan	nan	94,2307692307692263967	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	33	c-ic	18	1	522	6	Glorious	nan	nan	nan	94,3396226415094361073	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	34	c-ic	18	1	1035	5	ym3.jpg	nan	nan	nan	94,4444444444444428655	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	35	c-ic	23	1	519	5	Evil	nan	nan	nan	94,5454545454545467464	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetBright	36	c-ic	23	1	1288	3	of3.jpg	nan	nan	nan	94,6428571428571387969	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeA	37	c-ic	18	1	595	4	Wonderful	nan	nan	nan	94,7368421052631504153	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	38	c-ic	18	1	748	3	yf5.jpg	nan	nan	nan	94,8275862068965551543	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	attributeB	39	c-ic	23	1	776	3	Horrible	nan	nan	nan	94,9152542372881384836	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	compatibletest2	5	targetAleft	40	c-ic	18	1	970	3	yf5.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	2	c-ic	23	1	769	4	ym2.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	3	c-ic	18	1	480	5	om2.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	4	c-ic	23	1	558	6	ym5.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	5	c-ic	18	1	453	6	om3.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	6	c-ic	23	1	497	5	ym3.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	7	c-ic	18	1	560	1	of1.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	8	c-ic	18	0	1692	2	of2.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	9	c-ic	18	1	939	4	om1.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	10	c-ic	18	1	455	5	om2.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	11	c-ic	18	0	959	3	of3.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	12	c-ic	18	1	552	6	om3.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	13	c-ic	23	1	501	1	yf1.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	14	c-ic	23	1	577	2	yf4.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	15	c-ic	23	1	709	3	yf5.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	16	c-ic	23	1	789	5	ym3.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	17	c-ic	18	1	646	4	om1.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	18	c-ic	23	1	905	1	yf1.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetBleft	19	c-ic	18	1	838	1	of1.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	20	c-ic	23	1	849	6	ym5.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	targetincompatiblepractice	6	targetAright	21	c-ic	23	1	579	2	yf4.jpg	nan	nan	nan	95	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeA	2	c-ic	18	1	1015	7	Laughter	2,5017281818650460856	nan	nan	95,0819672131147513028	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetBleft	3	c-ic	18	0	1593	2	of2.jpg	2,6756642964132124618	nan	nan	93,5483870967741921731	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeB	4	c-ic	23	1	843	8	Hurt	2,1169611639250653923	nan	nan	93,6507936507936449289	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetBleft	5	c-ic	18	1	874	1	of1.jpg	1,8674549550878294379	nan	nan	93,75	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeB	6	c-ic	23	1	838	1	Agony	1,7007422752283642975	nan	nan	93,846153846153839595	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetBleft	7	c-ic	18	1	951	3	of3.jpg	1,645788016962281608	nan	nan	93,9393939393939376714	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeA	8	c-ic	18	0	2114	8	Happy	1,5548676054393486545	nan	nan	92,5373134328358162293	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetAright	9	c-ic	23	1	1258	4	ym2.jpg	1,5592259318016266079	nan	nan	92,647058823529420124	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeA	10	c-ic	18	1	710	6	Glorious	1,4432973021336883424	nan	nan	92,7536231884057968955	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetAright	11	c-ic	23	1	1015	5	ym3.jpg	1,4250483347549012247	nan	nan	92,8571428571428612031	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeB	12	c-ic	23	0	1526	5	Evil	1,4525913645942691854	nan	nan	91,5492957746478879244	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetAright	13	c-ic	23	1	1842	2	yf4.jpg	1,4621291979886712475	nan	nan	91,6666666666666571928	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeA	14	c-ic	18	1	1237	5	Pleasure	1,4683448225678890076	nan	nan	91,7808219178082254075	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetBleft	15	c-ic	18	0	1956	2	of2.jpg	1,4695582606988324414	nan	nan	90,5405405405405332431	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeA	16	c-ic	18	1	1271	2	Love	1,4756218723273912818	nan	nan	90,6666666666666571928	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetBleft	17	c-ic	18	1	609	4	om1.jpg	1,3969057487541982621	nan	nan	90,7894736842105345431	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeB	18	c-ic	23	1	894	7	Failure	1,3721924961961580181	nan	nan	90,9090909090909065071	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetAright	19	c-ic	23	1	676	1	yf1.jpg	1,3193783615999512548	nan	nan	91,0256410256410219972	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	attributeB	20	c-ic	23	1	1066	6	Awful	1,3199991555242547303	nan	nan	91,1392405063291164424	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest1	7	targetAright	21	c-ic	23	0	1494	6	ym5.jpg	1,3406494786639380212	nan	nan	90	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	1	c-ic	18	1	859	1	Joy	1,3406494786639380212	0,4995304782676628919	0,9200899784658004288	90,123456790123455562	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	2	c-ic	18	1	632	5	om2.jpg	1,3406494786639380212	0,1729636909476601203	0,7568065848057990985	90,2439024390243957896	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	3	c-ic	23	1	839	4	Nasty	1,3406494786639380212	0,2668853180509131451	0,8037673983574256109	90,3614457831325381676	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	4	c-ic	18	1	580	6	om3.jpg	1,3406494786639380212	0,1226745755083760159	0,7316620270861570186	90,4761904761904816041	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	5	c-ic	18	0	2129	3	Peace	1,3406494786639380212	0,8153806905080268619	1,078015084585982386	89,4117647058823621364	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	6	c-ic	18	1	1853	1	of1.jpg	1,3406494786639380212	1,090466440120698044	1,2155579593923180326	89,5348837209302388374	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	7	c-ic	23	1	748	2	Terrible	1,3406494786639380212	0,9659798018542444797	1,1533146402590912505	89,6551724137931103087	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	8	c-ic	18	1	563	4	om1.jpg	1,3406494786639380212	0,8154884318412680688	1,078068955252603045	89,7727272727272662678	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	9	c-ic	23	1	924	7	Failure	1,3406494786639380212	0,7951562288084930152	1,0679028537362156293	89,8876404494381944232	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	10	c-ic	18	1	845	3	of3.jpg	1,3406494786639380212	0,7614859547752794722	1,0510677167196087467	90	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	11	c-ic	18	1	897	6	Glorious	1,3406494786639380212	0,7456811756049986917	1,0431653271344683009	90,1098901098901166051	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	12	c-ic	18	1	680	6	om3.jpg	1,3406494786639380212	0,6887841423474563296	1,0147168105056971754	90,2173913043478279405	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	13	c-ic	18	0	1375	3	Peace	1,3406494786639380212	0,7579637917685443371	1,0493066352162412347	89,2473118279569916922	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	14	c-ic	18	1	643	2	of2.jpg	1,3406494786639380212	0,7022668064384267606	1,0214581425511823909	89,361702127659569328	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	15	c-ic	18	1	696	2	Love	1,3406494786639380212	0,6630423594452158342	1,0018459190545769832	89,4736842105263150415	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	16	c-ic	23	1	981	4	ym2.jpg	1,3406494786639380212	0,6720213735354760853	1,0063354260997070533	89,5833333333333428072	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	17	c-ic	18	1	1050	1	Joy	1,3406494786639380212	0,6894382527706919284	1,0150438657173150858	89,6907216494845442867	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	18	c-ic	23	1	1429	3	yf5.jpg	1,3406494786639380212	0,7442805955189842892	1,0424650370914612107	89,7959183673469425457	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	19	c-ic	23	0	1821	2	Terrible	1,3406494786639380212	0,8153701361116038049	1,0780098073877708575	88,8888888888888857309	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	20	c-ic	18	1	1632	5	om2.jpg	1,3406494786639380212	0,8662529074976152987	1,10345119308077666	89	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	21	c-ic	23	1	1819	8	Hurt	1,3406494786639380212	0,9173296922220819383	1,1289895854430098687	89,1089108910891098958	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	22	c-ic	23	1	710	1	yf1.jpg	1,3406494786639380212	0,8848191590311329513	1,1127343188475355973	89,215686274509806708	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	23	c-ic	18	1	624	8	Happy	1,3406494786639380212	0,8456480197065640025	1,0931487491852509564	89,3203883495145731786	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	24	c-ic	23	1	1354	3	yf5.jpg	1,3406494786639380212	0,8706885638340747802	1,1056690212490063452	89,4230769230769340083	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	25	c-ic	23	0	1698	3	Horrible	1,3406494786639380212	0,9079148586430088042	1,1242821686534734127	88,5714285714285693984	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	26	c-ic	18	0	2247	1	of1.jpg	1,3406494786639380212	0,9458948573448209274	1,1432721680043793633	87,7358490566037829694	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	27	c-ic	23	1	849	5	Evil	1,3406494786639380212	0,9304973283996126332	1,1355734035317752717	87,8504672897196314807	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	28	c-ic	23	0	1478	6	ym5.jpg	1,3406494786639380212	0,9521978925563295837	1,1464236856101337469	87,0370370370370380897	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	29	c-ic	23	1	876	1	Agony	1,3406494786639380212	0,9399841365466020671	1,1403168076052700997	87,15596330275229775	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	30	c-ic	23	1	539	2	yf4.jpg	1,3406494786639380212	0,9016104443931258761	1,1211299615285319486	87,2727272727272662678	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	31	c-ic	23	0	1365	6	Awful	1,3406494786639380212	0,9182942229646393617	1,1294718508142886915	86,486486486486484182	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	32	c-ic	23	1	2590	4	ym2.jpg	1,3406494786639380212	0,9393594755352780989	1,1400044770996080601	86,6071428571428612031	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	33	c-ic	18	1	930	5	Pleasure	1,3406494786639380212	0,9318089002865159731	1,1362291894752269972	86,7256637168141537586	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	34	c-ic	23	1	1100	5	ym3.jpg	1,3406494786639380212	0,9338078444586803695	1,1372286615613091953	86,8421052631579044601	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	35	c-ic	18	1	2411	7	Laughter	1,3406494786639380212	0,9555871009193270815	1,1481182897916326624	86,9565217391304372541	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	36	c-ic	23	1	756	1	yf1.jpg	1,3406494786639380212	0,9383448706277027762	1,1394971746458204542	87,0689655172413807804	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeA	37	c-ic	18	1	934	4	Wonderful	1,3406494786639380212	0,9318206009161562609	1,136235039790047141	87,1794871794871824022	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetBleft	38	c-ic	18	1	691	3	of3.jpg	1,3406494786639380212	0,912335614866742417	1,1264925467653401636	87,2881355932203462089	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	attributeB	39	c-ic	23	1	740	4	Nasty	1,3406494786639380212	0,8966765369801716901	1,1186630078220547446	87,3949579831932794605	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	incompatibletest2	9	targetAright	40	c-ic	23	1	748	6	ym5.jpg	1,3406494786639380212	0,8822486973362754226	1,1114490880001066664	87,5	0	0
+6.6.3	win	2024-07-19	09:55:33	12	1	1	end	11	finish	1	c-ic	57	0	2546	1	Thank you!	1,3406494786639380212	0,8822486973362754226	1,1114490880001066664	87,5	0	0

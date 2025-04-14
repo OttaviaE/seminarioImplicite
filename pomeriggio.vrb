@@ -1,0 +1,20 @@
+\frametitle{Secondo gruppo}
+\begin{small}
+		\begin{verbatim}
+			<expt>
+			/ onexptbegin = [
+			values.conditionOrder = "ic-c"
+			]
+			/ preinstructions = (iatintro)
+			/ groups = (2 of 2) % change the grouping
+			/ blocks = [ % change the conditions presentation order
+			1=targetincompatiblepractice; 	2=attributepractice;
+			3=incompatibletest1; 4=incompatibletestinstructions; 5=incompatibletest2;
+			6=targetcompatiblepractice; 7=compatibletest1;
+			8=compatibletestinstructions; 9=compatibletest2;
+			10=summary;
+			11 = end;
+			]
+			</expt>
+		\end{verbatim}
+	\end{small}
